@@ -110,6 +110,11 @@ lessons:
         file: Заштита приватности личних података и ауторска права.rst
         description: #opciono
         guid: 3273f437-2fc4-40d3-b4ee-072ee2df3783
+      - type: video
+        title: Digitalna pismenost 5 Creative Commons Licence
+        url: https://www.youtube.com/watch?v=nNEQpeQwpUI&list=PL9r2JbslQP7YWFb-UgX5OgZRo3ImNpZda&index=3 # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
+        description: #opciono
+        guid: 65f2d340-fed0-46b7-8ecf-7634b2ee0222
       - type: quiz 
         title: Тест четврте лекције
         folder: Заштита приватности личних података и ауторска права
