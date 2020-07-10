@@ -22,10 +22,11 @@ description: # opciono
     - Заштита приватности личних података
     - Заштита здравља, ризик зависности од технологије и управљање временом
   externalLinks: # opciono 
-    - text: Нет патрола restructuredText
+    - text: Нет патрола
       href: http://www.netpatrola.rs/
-    - text: Кликни безбедно restructuredText
-      href: http://kliknibezbedno.rs/sr/naslovna.1.1.html
+    - text: Кликни безбедно
+      href: https://kliknibezbedno.wordpress.com/opsta-bezbednst-na-internetu/
+      
 lessons:
   - title: Употреба ИКТ уређаја на одговоран и сигуран начин
     folder: Употреба ИКТ уређаја на одговоран и сигуран начин
@@ -92,6 +93,27 @@ lessons:
         file: Претраживање Интернета, одабир резултата и преузимање садржаја.rst
         description: #opciono
         guid: 8958dabd-b8b2-4359-bd7d-f4113b028315
+      - type: video
+        title: Претраживање информација на интернету коришћењем претраживача
+        url: https://www.youtube.com/watch?v=pgkGFcvgv2Y&feature=youtu.be # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
+        description: #opciono
+        guid: 83ac5337-6f05-46b7-8289-6739756e5780
+      - type: video
+        title: Претраживање и преузимање информација са интернета коришћењем претраживача
+        url: https://www.youtube.com/watch?v=AwL_ycXOO10&feature=youtu.be # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
+        description: #opciono
+        guid: 5347d486-4d22-4c1a-8813-302f22fbdc61
+      - type: video
+        title: Проналажење и преузимање датотека са интернета коришћењем претраживача
+        url: https://www.youtube.com/watch?v=KcBsI4vWBSc&feature=youtu.be # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
+        description: #opciono
+        guid: 6ccab53d-9d9d-4869-a6bf-1b08b20037be
+      - type: reading
+        title: Критички приступ информацијама на интернету
+        folder: Претраживање Интернета, одабир резултата и преузимање садржаја
+        file: Критички приступ информацијама на интернету.rst
+        description: #opciono
+        guid: 82486d57-6cb5-44f3-8bcb-772d5dcf021c
       - type: quiz 
         title: Тест треће лекције
         folder: Претраживање Интернета, одабир резултата и преузимање садржаја
@@ -110,7 +132,7 @@ lessons:
         description: #opciono
         guid: 3273f437-2fc4-40d3-b4ee-072ee2df3783
       - type: video
-        title: Digitalna pismenost 5 Creative Commons Licence
+        title: Значење и врсте Creative Commons лиценци
         url: https://www.youtube.com/watch?v=nNEQpeQwpUI&list=PL9r2JbslQP7YWFb-UgX5OgZRo3ImNpZda&index=3 # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
         description: #opciono
         guid: 65f2d340-fed0-46b7-8ecf-7634b2ee0222
@@ -136,7 +158,7 @@ lessons:
         folder: Заштита здравља, ризик зависности од технологије и управљање временом
         file: Тест пете лекције.rst
         description: #opciono
-        guid: 0d20d414-be2f-4adf-a47a-4843fc528ad2  
+        guid: c487d602-0d10-4c9c-bacd-a55fbf435fa1 
 archived-lessons: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
   - guid: 3ced8ac6-8be7-4921-bea7-dccf89a7cc79
   - guid: 29a3a23a-0cdb-4a2b-ad6b-611d36c39db5
