@@ -1,59 +1,138 @@
-courseId: kurs-primer
+courseId: 5_razred_IKT_DigitalnaPismenost
 lang: sr-Cyrl
-title: Пример курса
-description:
+title: Дигитална писменост
+description: # opciono  
   willLearn: # list
-    - Научићете 1
-    - Научићете 2
+    - Научићеш како да реагујеш исправно када дођеш у потенцијално небезбедну ситуацију у коришћењу ИКТ уређаја
+    - Научићеш какав је значај правилног одлагања дигиталног отпада за заштиту животне средине
+    - Научићеш да разликујеш безбедно од небезбедног и пожељно од непожељног понашања на Интернету
+    - Научићеш да реагујеш исправно када дођеш у контакт са непримереним садржајем или са непознатим особама путем Интернета
+    - Научићеш како да приступаш Интернету, самостално претражујеш, проналазиш информације у дигиталном окружењу и преузимаш их на свој уређај
+    - Научићеш како да информацијама на интернету приступиш критички
+    - Научићеш да спроводиш поступке за заштиту личних података и приватности на Интернету
+    - Научићеш шта су ауторска права и разумећеш њихов значај
+    - Научићеш да препознаш ризик зависности од технологије и њен утицај на твоје здравље
+    - Научићеш да рационално управљаш временом које проводиш у раду са технологијом и на Интернету
   requirements:
-    - Имаш инсталиран Пајтон
-    - Имаш инсталиран Петљадок
+    - Рачунар са приступом интернету
+    -
   toc:
-    - Пример_лекције
-    - Пример_лекције2
+    - Употреба ИКТ уређаја на одговоран и сигуран начин
+    - Правила безбедног рада на Интернету
+    - Претраживање Интернета, одабир резултата и преузимање садржаја
+    - Заштита приватности личних података
+    - Заштита здравља, ризик зависности од технологије и управљање временом
   externalLinks: # opciono 
-    - text: Синтакса restructuredText
-      href: https://docutils.sourceforge.io/docs/user/rst/quickref.html
-    - text: Синтакса restructuredText 2
-      href: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
-
+    - text: Нет патрола restructuredText
+      href: http://www.netpatrola.rs/
+    - text: Кликни безбедно restructuredText
+      href: http://kliknibezbedno.rs/sr/naslovna.1.1.html
 lessons:
-  - title: Пример_лекција1
-    guid: c2c651cd-53d9-4a3d-ba4f-650b8422f0bc
+  - title: Употреба ИКТ уређаја на одговоран и сигуран начин
+    folder: Употреба ИКТ уређаја на одговоран и сигуран начин
+    guid: 4177298e-55d0-4fab-b9b2-b14941bf98b1
     description: Прва лекција
     activities:
       - type: reading
-        title: Пример фајла
-        file: primer_1.rst
+        title: Исправно реаговање у потенцијално небезбедној ситуацији у коришћењу ИКТ уређаја
+        folder: Употреба ИКТ уређаја на одговоран и сигуран начин
+        file: Исправно реаговање у потенцијално небезбедној ситуацији у коришћењу ИКТ уређаја.rst
         description: #opciono
-        guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
-      - type: reading
-        title: Пример pdf фајла
-        file: primer_dokument.pdf
-        description: ...
-        guid: d90350ae-84e4-4e49-bac8-2d4849e3c409
+        guid: 89e49737-2868-4e17-b306-7dfebc1fc38f
       - type: video
-        title: Пример видеа
-        url: https://www.youtube.com/watch?v=flu3-ntQIlE # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
-        description: ...
-        guid: 61657689-aa6b-46c9-87da-51869d6477ee
+        title: Све боје интернета
+        url: https://www.youtube.com/watch?v=gJWmUF2MtSs&list=PLG6HMr6sRAxk5fYkFHmTrZEFoY4dkhE_V&index=1 # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
+        description: #opciono
+        guid: 3bcca401-0516-4c40-a9dc-3ff11d0646ae
+      - type: reading
+        title: Одлагање дигиталног отпада и заштита животне средине
+        folder: Употреба ИКТ уређаја на одговоран и сигуран начин
+        file: Одлагање дигиталног отпада и заштита животне средине.rst
+        description: 
+        guid: 8d0c2386-df94-4a4b-a8c1-e9f930863627
       - type: quiz 
-        title: Пример теста
-        file: primer_test_1.rst
-        description: ...
-        guid: a725f29a-b323-4a1a-b52d-6eae141bc243
+        title: Тест прве лекције
+        folder: Употреба ИКТ уређаја на одговоран и сигуран начин
+        file: Тест прве лекције.rst
+        description: #opciono
+        guid: 4b29867e-4969-4bff-8182-d38e35a49cde
     archived-activities: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
       - guid: de4d8ced-7457-4257-a156-250bdb711d65
       - guid: 22752682-f23f-4df7-b590-e22780fda0a3
-  - title: Пример_лекција2
-    guid: c79a8591-ad06-4e46-9d4d-8ecb5361cf8c
+  - title: Правила безбедног рада на Интернету
+    folder: Правила безбедног рада на Интернету
+    guid: bcaf5f74-33df-4015-b95e-ca37c638bb74
     description:  Друга лекција
     activities:
       - type: reading
-        title: Primer rst fajla
-        file: primer_2.rst
+        title: Функције антивирус програма и заштитног зида
+        folder: Правила безбедног рада на Интернету
+        file: Функције антивирус програма и заштитног зида.rst
         description: #opciono
-        guid: 4576c9a4-2071-4a21-b221-a646477e05be   
+        guid: 4c8c12ce-da5a-47d6-a903-8335b3ef7359
+      - type: reading
+        title: Правила безбедног понашања на Интернету
+        folder: Правила безбедног рада на Интернету
+        file: Правила безбедног понашања на Интернету.rst
+        description: #opciono
+        guid: 9af5557b-d293-4901-a6ee-478cfde1cefe 
+      - type: quiz 
+        title: Тест друге лекције
+        folder: Правила безбедног рада на Интернету
+        file: Тест друге лекције.rst
+        description: #opciono
+        guid: 5e3e65b6-cfa2-403b-b250-108c39aa5265
+  - title: Претраживање Интернета, одабир резултата и преузимање садржаја
+    folder: Претраживање Интернета, одабир резултата и преузимање садржаја
+    guid: 4b6acfb0-815d-466b-8d7b-06aeb82b9c54
+    description:  Трећа лекција
+    activities:
+      - type: reading
+        title: Претраживање Интернета, одабир резултата и преузимање садржаја
+        folder: Претраживање Интернета, одабир резултата и преузимање садржаја
+        file: Претраживање Интернета, одабир резултата и преузимање садржаја.rst
+        description: #opciono
+        guid: 8958dabd-b8b2-4359-bd7d-f4113b028315
+      - type: quiz 
+        title: Тест треће лекције
+        folder: Претраживање Интернета, одабир резултата и преузимање садржаја
+        file: Тест треће лекције.rst
+        description: #opciono
+        guid: 2affc7fa-9889-4c9a-8717-d2cc854bceac
+  - title: Заштита приватности личних података и ауторска права
+    folder: Заштита приватности личних података и ауторска права
+    guid: d9640d3c-6c4f-4031-8bd2-843f2b7591be
+    description:  Четврта лекција
+    activities:
+      - type: reading
+        title: Заштита приватности личних података и ауторска права
+        folder: Заштита приватности личних података и ауторска права
+        file: Заштита приватности личних података и ауторска права.rst
+        description: #opciono
+        guid: 3273f437-2fc4-40d3-b4ee-072ee2df3783
+      - type: quiz 
+        title: Тест четврте лекције
+        folder: Заштита приватности личних података и ауторска права
+        file: Тест четврте лекције.rst
+        description: #opciono
+        guid: 7d6fe6c6-3642-4cc1-921b-548ca62a2e54     
+  - title: Заштита здравља, ризик зависности од технологије и управљање временом
+    folder: Заштита здравља, ризик зависности од технологије и управљање временом
+    guid: c04b132e-1f4c-4070-aa57-81fc3359637a
+    description:  Пета лекција
+    activities:
+      - type: reading
+        title: Заштита здравља, ризик зависности од технологије и управљање временом
+        folder: Заштита здравља, ризик зависности од технологије и управљање временом
+        file: Заштита здравља, ризик зависности од технологије и управљање временом.rst
+        description: #opciono
+        guid: a18e17fb-3e6b-4c4c-b8b0-739c9ca5f2af
+      - type: quiz 
+        title: Тест пете лекције
+        folder: Заштита здравља, ризик зависности од технологије и управљање временом
+        file: Тест пете лекције.rst
+        description: #opciono
+        guid: 0d20d414-be2f-4adf-a47a-4843fc528ad2  
 archived-lessons: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
   - guid: 3ced8ac6-8be7-4921-bea7-dccf89a7cc79
   - guid: 29a3a23a-0cdb-4a2b-ad6b-611d36c39db5
