@@ -5,7 +5,7 @@
 Питање 1.
 ~~~~~~~~~
 
-.. mchoice:: L1P1
+.. mchoice:: L1P2
     :multiple_answers:
     :answer_a: Дигитални уређаји.
     :feedback_a: Нетачно    
@@ -30,7 +30,7 @@
       :align: center
       :width: 800px
 
-.. dragndrop:: L1P2
+.. dragndrop:: L1P3
     :feedback: Tвој одговор није тачан. Покушај поново!
     :match_1: Десктоп рачунар|||1
     :match_2: Симулатор|||2
