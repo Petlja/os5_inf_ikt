@@ -26,7 +26,7 @@
 
 На следећој слици су бројевима од 1 до 5 означени су дигитални уређаји.
 
-.. image:: ../_images/L1S6.png
+.. image:: ../../_images/L1S6.png
     :align: center
     :width: 800px
 
