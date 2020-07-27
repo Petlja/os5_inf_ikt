@@ -34,13 +34,13 @@
 
 Покрени програм за обраду текста и отвори документ MaliPrinc.docx. У тексту у документу MaliPrinc.docx уметни следећу слику:
 
-.. image:: ../../_images/L7S44.png
+.. image:: ../../_images/L7S44.jpg
     :width: 200px
     :align: center
 
 Након, уметања слике документ треба да изгледа овако:
 
-.. image:: ../../_images/L7S46.png
+.. image:: ../../_images/L7S_46.png
     :width: 800px
     :align: center
 
