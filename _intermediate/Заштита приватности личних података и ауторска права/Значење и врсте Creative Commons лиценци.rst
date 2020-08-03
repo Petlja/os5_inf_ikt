@@ -1,7 +1,7 @@
 Значење и врсте Creative Commons лиценци
 ========================================
 
-.. ytpopup:: K95xoquFWAA
+.. ytpopup:: 
       :width: 735
       :height: 415
       :align: center

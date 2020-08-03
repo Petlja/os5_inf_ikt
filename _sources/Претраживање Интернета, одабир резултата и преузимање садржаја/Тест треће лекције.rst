@@ -20,17 +20,15 @@
 
 .. mchoice:: Прегледачи
     :multiple_answers:
-    :answer_a: Internet Explorer
-    :feedback_a: Тачно    
+    :answer_a: Google SketchUp
+    :feedback_a: Нетачно    
     :answer_b: Microsoft Edge
     :feedback_b: Тачно    
     :answer_c: Microsoft Word
     :feedback_c: Нетачно
     :answer_d: Mozilla Firefox
     :feedback_d: Тачно
-    :answer_е: Google SketchUp
-    :feedbacк_е: Нетачно 
-    :correct: a,b,d
+    :correct: b,d
 
     Који од наведених програма представљају интернет прегледаче? Изабери све тачне одговоре.
 
