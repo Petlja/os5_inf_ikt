@@ -331,7 +331,7 @@ lessons:
         guid: 3273f437-2fc4-40d3-b4ee-072ee2df3783
       - type: video
         title: Значење и врсте Creative Commons лиценци
-        url: https://youtu.be/K95xoquFWAA # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
+        url: https://youtu.be/-n7qm4VeamU # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
         description: #opciono
         guid: 65f2d340-fed0-46b7-8ecf-7634b2ee0222
       - type: quiz 
