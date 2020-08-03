@@ -293,17 +293,17 @@ lessons:
         guid: 8958dabd-b8b2-4359-bd7d-f4113b028315
       - type: video
         title: Претраживање информација на интернету коришћењем претраживача
-        url: https://www.youtube.com/watch?v=pgkGFcvgv2Y&feature=youtu.be # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
+        url: https://www.youtube.com/watch?v=Wry89XdTjuI # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
         description: #opciono
         guid: 83ac5337-6f05-46b7-8289-6739756e5780
       - type: video
-        title: Претраживање и преузимање информација са интернета коришћењем претраживача
-        url: https://www.youtube.com/watch?v=AwL_ycXOO10&feature=youtu.be # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
+        title: Претраживање и преузимање слика са интернета коришћењем претраживача
+        url: https://www.youtube.com/watch?v=PlmHt8fBL-g # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
         description: #opciono
         guid: 5347d486-4d22-4c1a-8813-302f22fbdc61
       - type: video
         title: Проналажење и преузимање датотека са интернета коришћењем претраживача
-        url: https://www.youtube.com/watch?v=KcBsI4vWBSc&feature=youtu.be # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
+        url: https://www.youtube.com/watch?v=3SN9lXx8qqI # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
         description: #opciono
         guid: 6ccab53d-9d9d-4869-a6bf-1b08b20037be
       - type: reading
