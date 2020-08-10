@@ -61,11 +61,12 @@
     :width: 800px
     :align: center 
 
+Oпис поступка за приступ системским подешавањима погледати на доњем видеу:
 
-.. raw:: html
-    <iframe width="560" height="315" align="center"
-    src="https://www.youtube.com/embed/KQ8tYL31eHc"
-    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+.. ytpopup:: KQ8tYL31eHc
+    :width: 735
+    :height: 415
+    :align: center
 
 Подешавање позадинске слике 
 ----------------------------
@@ -86,12 +87,15 @@
 Одаберемо опцију |pozadina| (1), из падајуће листе Background (2) одаберемо опцију Picture. У делу Choose your picture можемо да одаберемо понуђене слике или да одаберемо жељену слику са свог рачунара, кликом на дугме Browse (3). Из листе  Choose a fit (4) из падајуће листе одаберемо да слика попуњава цео екран Fill.
 
 .. image:: ../../_images/L3S11.png
-    :width: 800px
+    :width: 600px
     :align: center 
 
 Опис поступка за промену позадинске слике можете погледати на доњем видеу:
 
-**Видео**
+.. ytpopup:: S2Vj9_j8PqU
+    :width: 735
+    :height: 415
+    :align: center
 
 Подешавање миша
 ----------------
@@ -108,7 +112,7 @@
 Одаберемо опцију |device| (1), из падајуће листе |mouse| (2) одаберемо опцију Select your primary button (3) одаберемо опцију Right чиме смо миш прилагодили потребама леворуким особама.
 
 .. image:: ../../_images/L3S17.png
-    :width: 800px
+    :width: 600px
     :align: center 
 
 .. |advance| image:: ../../_images/L3S18.png
@@ -118,7 +122,7 @@
 Други начин подешавања је одабир опције |advance| чиме се отвара прозор као на доњој слици.
 
 .. image:: ../../_images/L3S19.png
-    :width: 800px
+    :width: 600px
     :align: center 
 
 Означавањем опције Switch primary and secondary buttons миш је прилагођен потребама леворуких особа.
@@ -126,12 +130,15 @@
 Да бисмо подесили брзину двоклика миша, користимо клизач како бисмо је подесили. Двокликом на фасциклу тестирамо подешавања миша. 
 
 .. image:: ../../_images/L3S20.png
-    :width: 800px
+    :width: 600px
     :align: center 
 
 Опис поступка за постављање примерног (главног) тастера миша и подешавање брзине клика можете погледати на доњем видеу:
 
-**Видео**
+.. ytpopup:: zw2ZJGQmEHI
+    :width: 735
+    :height: 415
+    :align: center
 
 
 Регионална и језичка подешавања 
@@ -157,18 +164,21 @@
 Одаберемо опцију |jezik1| и у делу Languages са десне стране прозора, кликнемо на дугме Add a language, отвара се прозор у коме одаберемо језик и писмо које желимо да мењамо.
 
 .. image:: ../../_images/L3S24.png
-    :width: 800px
+    :width: 600px
     :align: center 
 
 Језик и писмо бирамо у делу обавештења и индикатора (енг. System tray), приказано на доњој слици:
 
 .. image:: ../../_images/L3S23.png
-    :width: 900px
+    :width: 700px
     :align: center 
 
 Опис поступка за промену језика тастатуре можете погледати на доњем видеу:
 
-**Видео**
+.. ytpopup:: 9jLy9okd1O4
+    :width: 735
+    :height: 415
+    :align: center
 
 
 .. infonote::
