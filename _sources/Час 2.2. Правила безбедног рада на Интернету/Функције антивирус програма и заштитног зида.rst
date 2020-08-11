@@ -64,8 +64,7 @@
 Заштитни зид у облику програма може се наћи на следећим локацијама:
  * Symantec Firewall: http://www.symantec.com, 
  * McAfee Personal Firewall: http://us.mcafee.com, 
- * Kerio Personal Firewall: http://www.kerio.com 
-и другим.
+ * Kerio Personal Firewall: http://www.kerio.com и другим.
 
 * Хардверски заштитни зидови се постављају као додатак личним заштитним зидовима, обично у пословним мрежама.
 
