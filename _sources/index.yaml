@@ -41,10 +41,16 @@ description: # opciono
     - Заштита приватности личних података
     - Заштита здравља, ризик зависности од технологије и управљање временом
   externalLinks: # opciono 
+    - text: Паметно и безбедно
+      href: https://pametnoibezbedno.gov.rs/
     - text: Нет патрола
       href: http://www.netpatrola.rs/
     - text: Кликни безбедно
       href: https://kliknibezbedno.wordpress.com/opsta-bezbednst-na-internetu/
+    - text: Шта је дигитално насиље и како да га зауставимо
+      href: https://www.unicef.org/serbia/zaustavimo-digitalno-nasilje
+    - text: Све боје интернета
+      href: https://www.youtube.com/playlist?list=PLG6HMr6sRAxk5fYkFHmTrZEFoY4dkhE_V
       
 lessons:
   - title: Информатика и рачунарство у савременом животу
@@ -237,11 +243,6 @@ lessons:
         file: Исправно реаговање у потенцијално небезбедној ситуацији у коришћењу ИКТ уређаја.rst
         description: #opciono
         guid: 89e49737-2868-4e17-b306-7dfebc1fc38f
-      - type: video
-        title: Све боје интернета
-        url: https://www.youtube.com/watch?v=gJWmUF2MtSs&list=PLG6HMr6sRAxk5fYkFHmTrZEFoY4dkhE_V&index=1 # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
-        description: #opciono
-        guid: 3bcca401-0516-4c40-a9dc-3ff11d0646ae
       - type: reading
         title: Одлагање дигиталног отпада и заштита животне средине
         folder: Употреба ИКТ уређаја на одговоран и сигуран начин
@@ -249,9 +250,9 @@ lessons:
         description: #test
         guid: 8d0c2386-df94-4a4b-a8c1-e9f930863627
       - type: quiz 
-        title: Тест прве лекције
+        title: Квиз прве лекције
         folder: Употреба ИКТ уређаја на одговоран и сигуран начин
-        file: Тест прве лекције.rst
+        file: Квиз прве лекције.rst
         description: #opciono
         guid: 4b29867e-4969-4bff-8182-d38e35a49cde
     archived-activities: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
@@ -275,9 +276,9 @@ lessons:
         description: #opciono
         guid: 9af5557b-d293-4901-a6ee-478cfde1cefe 
       - type: quiz 
-        title: Тест друге лекције
+        title: Квиз друге лекције
         folder: Правила безбедног рада на Интернету
-        file: Тест друге лекције.rst
+        file: Квиз друге лекције.rst
         description: #opciono
         guid: 5e3e65b6-cfa2-403b-b250-108c39aa5265
   - title: Претраживање Интернета, одабир резултата и преузимање садржаја
@@ -293,17 +294,17 @@ lessons:
         guid: 8958dabd-b8b2-4359-bd7d-f4113b028315
       - type: video
         title: Претраживање информација на интернету коришћењем претраживача
-        url: https://www.youtube.com/watch?v=Wry89XdTjuI # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
+        url: https://youtu.be/Wry89XdTjuI   # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
         description: #opciono
         guid: 83ac5337-6f05-46b7-8289-6739756e5780
       - type: video
         title: Претраживање и преузимање слика са интернета коришћењем претраживача
-        url: https://www.youtube.com/watch?v=PlmHt8fBL-g # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
+        url: https://youtu.be/oSvW3McrxlA # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
         description: #opciono
         guid: 5347d486-4d22-4c1a-8813-302f22fbdc61
       - type: video
         title: Проналажење и преузимање датотека са интернета коришћењем претраживача
-        url: https://www.youtube.com/watch?v=3SN9lXx8qqI # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
+        url: https://youtu.be/3SN9lXx8qqI # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
         description: #opciono
         guid: 6ccab53d-9d9d-4869-a6bf-1b08b20037be
       - type: reading
@@ -313,9 +314,9 @@ lessons:
         description: #opciono
         guid: 82486d57-6cb5-44f3-8bcb-772d5dcf021c
       - type: quiz 
-        title: Тест треће лекције
+        title: Квиз треће лекције
         folder: Претраживање Интернета, одабир резултата и преузимање садржаја
-        file: Тест треће лекције.rst
+        file: Квиз треће лекције.rst
         description: #opciono
         guid: 2affc7fa-9889-4c9a-8717-d2cc854bceac
   - title: Заштита приватности личних података и ауторска права
@@ -331,13 +332,13 @@ lessons:
         guid: 3273f437-2fc4-40d3-b4ee-072ee2df3783
       - type: video
         title: Значење и врсте Creative Commons лиценци
-        url: https://www.youtube.com/watch?v=-n7qm4VeamU # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
+        url: https://youtu.be/vNJ44J4G7PQ # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
         description: #opciono
         guid: 65f2d340-fed0-46b7-8ecf-7634b2ee0222
       - type: quiz 
-        title: Тест четврте лекције
+        title: Квиз четврте лекције
         folder: Заштита приватности личних података и ауторска права
-        file: Тест четврте лекције.rst
+        file: Квиз четврте лекције.rst
         description: #opciono
         guid: 7d6fe6c6-3642-4cc1-921b-548ca62a2e54     
   - title: Заштита здравља, ризик зависности од технологије и управљање временом
@@ -352,9 +353,9 @@ lessons:
         description: #opciono
         guid: a18e17fb-3e6b-4c4c-b8b0-739c9ca5f2af
       - type: quiz 
-        title: Тест пете лекције
+        title: Квиз пете лекције
         folder: Заштита здравља, ризик зависности од технологије и управљање временом
-        file: Тест пете лекције.rst
+        file: Квиз пете лекције.rst
         description: #opciono
         guid: c487d602-0d10-4c9c-bacd-a55fbf435fa1 
     
