@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sr-Cyrl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Заштита приватности личних података и ауторска права &#8212; 5_razred_IKT_DigitalnaPismenost</title>
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/video.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/dragndrop.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/fitb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webgldemo.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/datafile.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/lib/prettify.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
+    <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/petlja.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/runestonebase.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/matrixeq.js"></script>
+    <script src="../_static/mchoice.js"></script>
+    <script src="../_static/timedmc.js"></script>
+    <script src="../_static/timed.js"></script>
+    <script src="../_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script src="../_static/mchoice-i18n.en.js"></script>
+    <script src="../_static/mchoice-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/jquery.highlight.js"></script>
+    <script src="../_static/bookfuncs.js"></script>
+    <script src="../_static/codemirror.js"></script>
+    <script src="../_static/xml.js"></script>
+    <script src="../_static/css.js"></script>
+    <script src="../_static/python.js"></script>
+    <script src="../_static/htmlmixed.js"></script>
+    <script src="../_static/javascript.js"></script>
+    <script src="../_static/activecode-i18n.en.js"></script>
+    <script src="../_static/activecode-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/skulpt.min.js"></script>
+    <script src="../_static/skulpt-stdlib.js"></script>
+    <script src="../_static/activecode.js"></script>
+    <script src="../_static/clike.js"></script>
+    <script src="../_static/timed_activecode.js"></script>
+    <script src="../_static/tabbedstuff.js"></script>
+    <script src="../_static/runestonevideo.js"></script>
+    <script src="../_static/shortanswer.js"></script>
+    <script src="../_static/timed_shortanswer.js"></script>
+    <script src="../_static/poll.js"></script>
+    <script src="../_static/showEval.js"></script>
+    <script src="../_static/d3.v2.min.js"></script>
+    <script src="../_static/jquery.ba-bbq.min.js"></script>
+    <script src="../_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
+    <script src="../_static/pytutor.js"></script>
+    <script src="../_static/codelens.js"></script>
+    <script src="../_static/clickable.js"></script>
+    <script src="../_static/timedclickable.js"></script>
+    <script src="../_static/dragndrop.js"></script>
+    <script src="../_static/timeddnd.js"></script>
+    <script src="../_static/dragndrop-i18n.en.js"></script>
+    <script src="../_static/dragndrop-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/fitb.js"></script>
+    <script src="../_static/timedfitb.js"></script>
+    <script src="../_static/fitb-i18n.en.js"></script>
+    <script src="../_static/fitb-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/webglinteractive.js"></script>
+    <script src="../_static/FileSaver.min.js"></script>
+    <script src="../_static/Blob.js"></script>
+    <script src="../_static/reveal.js"></script>
+    <script src="../_static/animationbase.js"></script>
+    <script src="../_static/datafile.js"></script>
+    <script src="../_static/lib/prettify.js"></script>
+    <script src="../_static/lib/hammer.min.js"></script>
+    <script src="../_static/parsons.js"></script>
+    <script src="../_static/parsons-i18n.en.js"></script>
+    <script src="../_static/parsons-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/timedparsons.js"></script>
+    <script src="../_static/karelCorner.js"></script>
+    <script src="../_static/karelRobot.js"></script>
+    <script src="../_static/karelWorld.js"></script>
+    <script src="../_static/karelRobotDrawer.js"></script>
+    <script src="../_static/karelUI.js"></script>
+    <script src="../_static/karel.js"></script>
+    <script src="../_static/karel-i18n.en.js"></script>
+    <script src="../_static/karel-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/notes.js"></script>
+    <script src="../_static/pygamelib-init.js"></script>
+    <script src="../_static/blockly/blockly_compressed.js"></script>
+    <script src="../_static/blockly/blocks_compressed.js"></script>
+    <script src="../_static/blockly/python_compressed.js"></script>
+    <script src="../_static/blockly/msg-sr.js"></script>
+    <script src="../_static/blockpy/utilities.js"></script>
+    <script src="../_static/blockpy/python_errors.js"></script>
+    <script src="../_static/blockpy/ast_node_visitor.js"></script>
+    <script src="../_static/blockpy/abstract_interpreter.js"></script>
+    <script src="../_static/blockpy/pytifa.js"></script>
+    <script src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
+    <script src="../_static/blockpy/python_to_blockly.js"></script>
+    <script src="../_static/blockpy/imported.js"></script>
+    <script src="../_static/blockpy/blocks/class.js"></script>
+    <script src="../_static/blockpy/blocks/comment.js"></script>
+    <script src="../_static/blockpy/blocks/comprehensions.js"></script>
+    <script src="../_static/blockpy/blocks/dict.js"></script>
+    <script src="../_static/blockpy/blocks/if.js"></script>
+    <script src="../_static/blockpy/blocks/io.js"></script>
+    <script src="../_static/blockpy/blocks/lists.js"></script>
+    <script src="../_static/blockpy/blocks/sets.js"></script>
+    <script src="../_static/blockpy/blocks/loops.js"></script>
+    <script src="../_static/blockpy/blocks/parking.js"></script>
+    <script src="../_static/blockpy/blocks/tuple.js"></script>
+    <script src="../_static/blockpy/blocks/turtles.js"></script>
+    <script src="../_static/blockpy/blocks/text.js"></script>
+    <script src="../_static/blockpy-modal.js"></script>
+    <script src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="../_static/jquery-fix.js"></script>
+    <script src="../_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script src="../_static/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../_static/bootstrap-sphinx.js"></script>
+    <script src="../_static/waypoints.min.js"></script>
+    <script src="../_static/rangy-core.js"></script>
+    <script src="../_static/rangy-textrange.js"></script>
+    <script src="../_static/rangy-cssclassapplier.js"></script>
+    <script src="../_static/user-highlights.js"></script>
+    <script src="../_static/jquery.idle-timer.js"></script>
+    <script src="../_static/processing-1.4.1.min.js"></script>
+    <script src="../_static/jquery.hotkey.js"></script>
+    <script src="../_static/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Creative Commons лиценце" href="Creative Commons лиценце.html" />
+    <link rel="prev" title="Час 2.4. Заштита приватности личних података и ауторска права" href="index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+<link rel="shortcut icon" href="../_static/favicon.ico" type="image/ico" />
+
+<script type="text/javascript">
+  eBookConfig = {};
+  eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
+  eBookConfig.app = eBookConfig.host+'/runestone';
+  eBookConfig.ajaxURL = eBookConfig.app+'/ajax/';
+  eBookConfig.course = '5_razred_IKT_DigitalnaPismenost';
+  eBookConfig.logLevel = 0;
+  eBookConfig.loginRequired = false;
+  eBookConfig.build_info = "";
+  eBookConfig.isLoggedIn = false;
+  eBookConfig.useRunestoneServices = false;
+  eBookConfig.python3 = true;
+  eBookConfig.basecourse = 'Primer_kurs';
+  eBookConfig.runestone_version = '3.1.1';
+  eBookConfig.imagesDir = '../_images/';
+  eBookConfig.staticDir = '../_static/';
+  if(typeof(Sk) != "undefined")
+      Sk.imgPath = eBookConfig.imagesDir;
+</script>
+
+<div id="fb-root"></div>
+
+
+
+  </head><body>
+
+
+<!-- Begin navbar -->
+
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <img src="../_static/img/logo.png" style="width:80px; height: 80px;"> 
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top: 10px; margin-left: 25px;">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="../">5_razred_IKT_DigitalnaPismenost</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div style="margin-left: 50%;margin-top: 5%;font-size: 20px;">
+  
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+    <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Час 1.1. Информатика и рачунарство у савременом животу/index.html">Час 1.1. Информатика и рачунарство у савременом животу</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.1. Информатика и рачунарство у савременом животу/Час_1_Информатика_и_рачунарство_у_савременом_животу.html">Час. Информатика и рачунарство у савременом животу</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.1. Информатика и рачунарство у савременом животу/Тест_1_Информатика_и_рачунарство_у_савременом_животу.html">Квиз. Информатика и рачунарство у савременом животу</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Час 1.2. Хардвер, софтвер и сервиси/index.html">Час 1.2. Хардвер, софтвер и сервиси</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.2. Хардвер, софтвер и сервиси/Час_2_Хардвер_софтвер_и_сервиси.html">Час. Хардвер, софтвер и сервиси</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.2. Хардвер, софтвер и сервиси/Тест_2_Хардвер_софтвер_и_сервиси.html">Квиз. Хардвер, софтвер и сервиси</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Час 1.3. Подешавање радног окружења/index.html">Час 1.3. Подешавање радног окружења</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.3. Подешавање радног окружења/Час_3_Подешавање_радног_окружења.html">Час. Подешавање радног окружења</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.3. Подешавање радног окружења/Тест_3_Подешавање_радног_окружења.html">Квиз. Подешавање радног окружења</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Час 1.4. Организација података на рачунару/index.html">Час 1.4. Организација података на рачунару</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.4. Организација података на рачунару/Час_4_Организација_података_на_рачунару.html">Час. Организација података на рачунару</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.4. Организација података на рачунару/Задатак_4_Организација_података_на_рачунару.html">Задаци. Организација података на рачунару</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.4. Организација података на рачунару/Тест_4_Организација_података_на_рачунару.html">Квиз. Организација података на рачунару</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Час 1.5. Рад са сликама/index.html">Час 1.5. Рад са сликама</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.5. Рад са сликама/Час_5_Рад_са_сликама.html">Час. Рад са сликама</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.5. Рад са сликама/Задатак_5_Рад_са_сликама.html">Задаци. Рад са сликама</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.5. Рад са сликама/Тест_5_Рад_са_сликама.html">Квиз. Рад са сликама</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Час 1.6 и 1.7. Рад са текстом/index.html">Час 1.6 и 1.7. Рад са текстом</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.6 и 1.7. Рад са текстом/Час_6_Рад_са_текстом.html">Час. Рад са текстом</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.6 и 1.7. Рад са текстом/Тест_6_Рад_са_текстом.html">Квиз 1. Рад са текстом</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.6 и 1.7. Рад са текстом/Час_7_Рад_са_текстом.html">Час. Рад са текстом</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.6 и 1.7. Рад са текстом/Задатак_7_Рад_са_текстом.html">Задаци. Рад са текстом</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.6 и 1.7. Рад са текстом/Тест_7_Рад_са_текстом.html">Квиз 2. Рад са текстом</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Час 1.8. Снимање звука и видео-записа/index.html">Час 1.8. Снимање звука и видео-записа</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.8. Снимање звука и видео-записа/Час_8_Снимање_звука_и_видео_записа.html">Час. Снимање звука и видео-записа</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.8. Снимање звука и видео-записа/Задатак_8_Снимање_звука_и_видео_записа.html">Задаци. Снимање звука и видео-записа</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.8. Снимање звука и видео-записа/Тест_8_Снимање_звука_и_видео_записа.html">Квиз. Снимање звука и видео-записа</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Час 1.9. Мултимедијалне презентације/index.html">Час 1.9. Мултимедијалне презентације</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.9. Мултимедијалне презентације/Час_9_Мултимедијалне_презентације.html">Час. Мултимедијалне презентације</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.9. Мултимедијалне презентације/Задатак_9_Мултимедијалне_презентације.html">Задаци. Мултимедијалне презентације</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 1.9. Мултимедијалне презентације/Тест_9_Мултимедијалне_презентације.html">Квиз. Мултимедијалне презентације</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Час 2.1. Употреба ИКТ уређаја на одговоран и сигуран начин/index.html">Час 2.1. Употреба ИКТ уређаја на одговоран и сигуран начин</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Час 2.1. Употреба ИКТ уређаја на одговоран и сигуран начин/Дигитална писменост.html">Дигитална писменост</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 2.1. Употреба ИКТ уређаја на одговоран и сигуран начин/Исправно реаговање у потенцијално небезбедној ситуацији у коришћењу ИКТ уређаја.html">Исправно реаговање у потенцијално небезбедној ситуацији у коришћењу ИКТ уређаја</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 2.1. Употреба ИКТ уређаја на одговоран и сигуран начин/Одлагање дигиталног отпада и заштита животне средине.html">Одлагање дигиталног отпада и заштита животне средине</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 2.1. Употреба ИКТ уређаја на одговоран и сигуран начин/Квиз прве лекције.html">Квиз прве лекције</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Час 2.2. Правила безбедног рада на Интернету/index.html">Час 2.2. Правила безбедног рада на Интернету</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Час 2.2. Правила безбедног рада на Интернету/Функције антивирус програма и заштитног зида.html">Правила безбедног рада на Интернету</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 2.2. Правила безбедног рада на Интернету/Правила безбедног понашања на Интернету.html">Правила безбедног понашања на Интернету</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 2.2. Правила безбедног рада на Интернету/Квиз друге лекције.html">Квиз друге лекције</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја/index.html">Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја/Претраживање Интернета, одабир резултата и преузимање садржаја.html">Претраживање Интернета, одабир резултата и преузимање садржаја</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја/Претраживање и преузимање информација са интернета коришћењем претраживача.html">Претраживање и преузимање информација са интернета коришћењем претраживача</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја/Претраживање и преузимање информација са интернета коришћењем претраживача  - Преузимање слике.html">Претраживање и преузимање информација са интернета коришћењем претраживача  - Преузимање слике</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја/Претраживање и преузимање информација са интернета коришћењем претраживача - Преузимање датотеке.html">Претраживање и преузимање информација са интернета коришћењем претраживача - преузимање датотеке</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја/Критички приступ информацијама на интернету.html">Критички приступ информацијама на интернету</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја/Квиз треће лекције.html">Квиз треће лекције</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Час 2.4. Заштита приватности личних података и ауторска права</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Заштита приватности личних података и ауторска права</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Creative Commons лиценце.html">Creative Commons лиценце</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Квиз четврте лекције.html">Квиз четврте лекције</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Час 2.5. Заштита здравља, ризик зависности од технологије и управљање временом/index.html">Заштита здравља, ризик зависности од технологије и управљање временом</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Час 2.5. Заштита здравља, ризик зависности од технологије и управљање временом/Заштита здравља, ризик зависности од технологије и управљање временом.html">Заштита здравља, ризик зависности од технологије и управљање временом</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Час 2.5. Заштита здравља, ризик зависности од технологије и управљање временом/Квиз пете лекције.html">Квиз пете лекције</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+
+        </div>
+      </div>
+  </div>
+<div class="container col-md-12" id="continue-reading"></div>
+
+<div class="container col-md-10 col-md-offset-2" id="main-content" style="margin-top: 70px;">
+  
+  <div class="section" id="id1">
+<h1>Заштита приватности личних података и ауторска права<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+
+    <div class="course-box course-box-info">
+        <div class="course-content">
+            <p>
+<dl class="simple">
+<dt>У овој лекцији ћемо говорити о:</dt><dd><ul class="simple">
+<li><p>спровођењу поступака за заштиту личних података и приватности на интернету;</p></li>
+<li><p>значају ауторских права;</p></li>
+<li><p>дозволама (лиценцама) за заштиту ауторских права.</p></li>
+</ul>
+</dd>
+</dl>
+
+    </p></div></div>
+<p>Вероватно сте до сада приметили како се често од вас тражи на интернету да унесете неке своје <strong>личне податке</strong> (име, презиме, адресу, адресу електронске поште, број телефона…) како бисте користили неку услугу на интернету.
+Када остављате своје личне податке на интернету ви не можете да знате ко ће све имати приступ њима и како ће их користити. Због тога се мора водити рачуна о <strong>заштити личних података</strong> што се односи на начин поступања са личним подацима од стране оних коме сте те податке дали.
+Свако има право на заштиту личних података, што се обично спроводи законским актима. Са обзиром на то да се развојем информационих технологија прикупљање и обрада личних података може злоупотребити на различите начине, јавила се потреба да се законски ограниче активности компанија и управа.
+Република Србија је усвојила <strong>Закон о заштити података о личности</strong> 2008. године са циљем да се у вези са обрадом података о личности сваком физичком лицу обезбеди остваривање и заштита права на приватност и осталих права и слобода.</p>
+<p>Најчешће <strong>жртве злоупотребе личних података</strong> су појединци, корисници интернета. Можда сте приметили да када претражујете нешто на интернету, неки производ који желите да купите или неку дестинацију на коју желите да путујете, након тога почну да вам се појављују рекламе управо за тај производ или ту дестинацију.
+Када претражујемо интернет, многи претраживачи складиште податке о нашем претраживању и на тај начин <strong>креирају наш профил</strong>, која су наша интересовања, посао, хобији и слично. Ти подаци о нама се могу уступити или продати другим компанијама које ће нам нудити своје производе и услуге.
+Неки претраживачи чувају податке попут посећених веб-места и време проведено у претрази извесно време, нпр. Гугл их чува 90 дана. Са обзиром на то да се преко интернета одвија и електронска трговина, када купујемо или продајемо преко интернета или плаћамо рачуне, изложени смо опасности када користимо платне картице.
+Потсетите се свих мера опреза и безбедног коришћења интернета која је предуслов за заштиту од злоупотребе личних података.</p>
+<div class="section" id="id2">
+<h2>Ауторско право и основне лиценце<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>Често претражујући интернет наилазимо на много текстова и фотографија које понекад преузимамо и користимо а нисмо сигурни да ли то смемо да радимо. Од свих материјала доступних на интернету заправо само мали део њих спада у такозвано јавно власништво, што значи да се може преузети, изменити, допунити и репродуковати слободно и без последица.
+Већина материјала је заштићено такозваним <strong>ауторским правом</strong>. Шта то значи?
+Материјали који се налазе на интернету имају своје ауторе (особу или особе које су их креирале) и ти материјали представљају ауторска дела – оригиналне творевине аутора које су једнинствене. Аутору тих дела припада ауторско право у складу са законом који даје аутору право на коришћење и расподелу свог дела. Носилац ауторског права је сам аутор.
+То што ви одређеном материјалу на интернету можете слободно приступили не значи да он не подлеже ауторским правима. Власник ауторског дела може <strong>заштитити свој рад</strong> тако што га означава посебном лиценцом (дозволом за коришћење) означеном са Copyright© (Ауторско право) година, назив фирме, установе или организације након чега стоји “All rights reserved” (Сва права задржана).
+Наведени текст показује намеру власника да заштити садржаје свог дела на интернету. Да би се избегли проблеми коришћења <strong>заштићеног материјала</strong>, препорука је да прочитате страну на веб-локацији која се бави условима и начином коришћења материјала. Можда ту пише да се дозвољава преузимање и копирање дела за лично и некомерцијално коришћење.</p>
+<dl class="simple">
+<dt>Дела која могу бити предмет заштите ауторских права, а која се могу пронаћи на интернету, су:</dt><dd><ul class="simple">
+<li><p>књижевна дела;</p></li>
+<li><p>музичка дела, заједно са текстовима песама;</p></li>
+<li><p>драмска дела;</p></li>
+<li><p>филмска дела;</p></li>
+<li><p>фотографије;</p></li>
+<li><p>рачунарски програми.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Некада аутор може, иако је заштитио своје дело, уједно омогућити коришћење свог дела уз услове које је сам одабрао. Постоје видљиви, али и невидљиви начини навођења права за копирање и заштиту ауторског дела. Када, у које сврхе и под којим условима можемо користити материјал пронађен на интернету?</p>
+<p>Аутор може заштитити свој рад или омогућити коришћење свог дела уз услове које сам изабере, користећи <strong>дозволе (лиценце)</strong> које се зову Лиценце кријејтив комонс
+(енгл. Creative Commons License – срп. стваралачка јавна дозвола). Као последица тога на интернету постоји много материјала који се може слободно преузети и на њему се могу испробати креативне могућности прилагођавајући га својим потребама.
+Оно што је потребно да знате јесте да када се нађете на веб-страници са садржајима које тражите и желите да користите, потребно је да погледате да ли негде пише под којим условима се тај материјал може користити.</p>
+<p>Непрофитна организација Creative Commons (<a class="reference external" href="http://creativecommons.org">http://creativecommons.org</a>) омогућила је дефинисање правила којима се назначавају права која аутори желе да препусте другима.
+На основу нове ознаке CC (енгл. Creative Commons), исказ Сва права задржана преводи се у Нека права задржана. Користећи ову иницијативу, група аутора који су спремни да своја дела ставе на располагање другима постаје из дана у дан све бројнија.
+Услове под којим се та дела могу користити они сами одређују користећи разне варијанте исказа CC које прецизније одређују која од „неких права” су задржана.</p>
+<p>Права која су задржана означена су одговарајућим симболима и кратким пратећим текстовима.</p>
+<a class="reference internal image-reference" href="../_images/creative-commons.png"><img alt="../_images/creative-commons.png" class="align-center" src="../_images/creative-commons.png" style="width: 500px;" /></a>
+<p>Погледајте у кратком видео запису објашњење како можете да приступите сајту Creative Commons и упознате се са симболима и њиховим значењима.</p>
+</div>
+</div>
+
+
+  
+      <div class="col-md-12">
+<ul class="pager">
+    <li id="relations-prev" title='Previous chapter - Час 2.4. Заштита приватности личних података и ауторска права' data-toggle="tooltip"><a href="index.html"><i class="fas fa-arrow-left"></i></a></li>
+    
+        <li id="relations-next" title='Next chapter - Creative Commons лиценце' data-toggle="tooltip"><a href="Creative Commons лиценце.html"><i class="fas fa-arrow-right"></i></a></li>
+</ul>
+
+<!-- <ul class="pager"> -->
+    <!-- -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - Час 2.4. Заштита приватности личних података и ауторска права' data-toggle="tooltip"><a href="index.html">Претходно поглавље</a></li> -->
+    <!--  -->
+    <!-- -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Creative Commons лиценце' data-toggle="tooltip"><a href="Creative Commons лиценце.html">Следеће поглавље</a></li> -->
+    <!-- -->
+<!-- </ul> -->
+
+<script type="text/javascript">
+
+  $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
+  $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
+
+</script>
+</div>
+  
+</div>
+<footer class="footer col-md-12">
+    <div class="container">
+        <div class="text-center">
+            <hr>
+            <p class="text-muted">
+                <span class="pull-left">&copy; 2019 Petlja (Created using  <a href="https://pypi.org/project/Sphinx/">Swinx</a>, <a href="http://runestoneinteractive.org/">RunestoneComponents</a> and <a href="https://github.com/Petlja/PetljaDoc">PetljaDoc</a>)</span>
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32029811-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+  </body>
+</html>
