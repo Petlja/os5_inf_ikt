@@ -22,7 +22,7 @@
     :feedback_a: Тачно    
     :answer_b: не
     :feedback_b: Нетачно
-    :correct: а
+    :correct: a
 
     Да ли се процес снимања звука разликује од програма и дигиталног уређаја који се користе?
 
@@ -34,7 +34,7 @@
     :feedback_a: Тачно    
     :answer_b: не
     :feedback_b: Нетачно
-    :correct: а
+    :correct: a
 
     Да ли апликација Sound Recorder чува звучни запис у .wma формату?
 
@@ -47,7 +47,7 @@
     :feedback_a: Тачно    
     :answer_b: не
     :feedback_b: Нетачно
-    :correct: а
+    :correct: a
 
     Да ли апликација Камера чува видео-запис у .mp4 формату?
 
@@ -65,6 +65,6 @@
     :feedback_d: Нетачно
     :answer_e: Звучник
     :feedback_e: Нетачно
-    :correct: а,b,c
+    :correct: a,b,c
 
     Означи све дигиталне уређаје које можеш да користиш за снимање звука и видео-записа?
