@@ -173,7 +173,7 @@ lessons:
         file: Час_7_Рад_са_текстом.rst
         description: #opciono
         guid: d0511672-02e7-4826-94b2-6b429dbb8ef7
-      - type: quiz
+      - type: reading
         title: Задаци. Рад са текстом
         folder: Час 1.6 и 1.7. Рад са текстом
         file: Задатак_7_Рад_са_текстом.rst
