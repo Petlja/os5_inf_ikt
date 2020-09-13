@@ -85,4 +85,4 @@
     :feedback_c: Тачно 
     :correct: c
 
-     Права која су задржана kod Creative Commons лиценци означена су:
+     Права која су задржана код Creative Commons лиценци означена су:
