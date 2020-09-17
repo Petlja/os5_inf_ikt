@@ -15,7 +15,7 @@
     :feedback_d: Нетачно  
     :answer_e: Flip Vertically
     :feedback_e: Нетачно  
-    :correct: а
+    :correct: a
 
     Дата је оригинална слика. 
 
@@ -60,7 +60,7 @@
     :feedback_b: Нетачно
     :answer_c: рачунарска графика
     :feedback_c: Нетачно
-    :correct: а
+    :correct: a
 
     За коју врсту рачунарске графике пиксел представља основни градивни елемент. Означи тачан одговор.
 

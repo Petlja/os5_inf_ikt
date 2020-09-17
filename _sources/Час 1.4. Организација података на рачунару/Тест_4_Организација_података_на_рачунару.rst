@@ -19,10 +19,10 @@
 
 .. mchoice:: L4P3
     :answer_a: да
-    :feedback_a: Тачно    
+    :feedback_a: Нетачно
     :answer_b: не
-    :feedback_b: Нетачно
-    :correct: a
+    :feedback_b: Тачно
+    :correct: b
 
     Да ли имена датотека и фасцикли смеју да садрже следеће знакове: < > : " /  \ | ? * у Windows оперативном систему. Означи тачан одговор.
 
