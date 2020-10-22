@@ -19,7 +19,7 @@
 
     Дата је оригинална слика. 
 
-    .. image:: ../../_images/L5S1.png
+    .. image:: ../../_images/kula.jpg
         :width: 250px
         :align: center
 
