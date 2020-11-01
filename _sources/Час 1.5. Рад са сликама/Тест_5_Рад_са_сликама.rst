@@ -8,14 +8,14 @@
     :answer_a: Flip Horizontally
     :feedback_a: Тачно    
     :answer_b: Rotate 180
-    :feedback_b: Нетачно
+    :feedback_b: Tачно
     :answer_c: Rotate 90 counter-clockwise
     :feedback_c: Нетачно
     :answer_d: Rotate 90 lockwise
     :feedback_d: Нетачно  
     :answer_e: Flip Vertically
     :feedback_e: Нетачно  
-    :correct: a
+    :correct: a,b
 
     Дата је оригинална слика. 
 
@@ -42,7 +42,7 @@
 
     Одговор: |blank|
 
-    - :^400$: Тачно
+    - :10.583|10,583: Тачно
       :x: Одговор није тачан.
 
 
@@ -53,7 +53,7 @@
 
     Одговор: |blank|
 
-    - :^450$: Тачно
+    - :7.938|7,938: Тачно
       :x: Одговор није тачан.
 
 Питање 3.
