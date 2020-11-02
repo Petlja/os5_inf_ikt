@@ -6,7 +6,7 @@
 
 .. mchoice:: L5P3
     :answer_a: Flip Horizontally
-    :feedback_a: Тачно    
+    :feedback_a: Нетачно    
     :answer_b: Rotate 180
     :feedback_b: Tачно
     :answer_c: Rotate 90 counter-clockwise
@@ -15,7 +15,7 @@
     :feedback_d: Нетачно  
     :answer_e: Flip Vertically
     :feedback_e: Нетачно  
-    :correct: a,b
+    :correct: b
 
     Дата је оригинална слика. 
 
