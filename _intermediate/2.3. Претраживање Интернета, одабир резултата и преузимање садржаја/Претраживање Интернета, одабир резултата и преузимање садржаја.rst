@@ -49,7 +49,9 @@
 Познатији претраживачи су:
  * Гугл (Google) https://www.google.rs,
  * Јаху (Yahoo) https://yahoo.com,
+ * Бинг (Bing) https://www.bing.com/ ,
  * Теома (Teoma) https://www.teoma.com,
+ * Jandex (Yandex) https://yandex.ru/,
  * Ликос (Lycos) https://www.lycos.com (садржи и претраживач),
  * Крстарица https://www.krstarica.com (садржи и претраживач).
 
