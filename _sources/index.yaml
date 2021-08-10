@@ -177,7 +177,7 @@ lessons:
     description:  Шест и седма лекција
     activities:
       - type: reading
-        title: Рад са тесктом
+        title: Рад са тесктом - унос текста и дигитални правопис
         folder: Час 1.6 и 1.7. Рад са текстом
         file: Час_6_Рад_са_текстом.rst
         description: #opciono
@@ -189,7 +189,7 @@ lessons:
         description:
         guid: c38c50e2-cf37-4d83-826f-c719585a53eb
       - type: reading
-        title: Рад са тесктом
+        title: Рад са тесктом - едитовање и форматирање текста
         folder: Час 1.6 и 1.7. Рад са текстом
         file: Час_7_Рад_са_текстом.rst
         description: #opciono
