@@ -3,7 +3,7 @@ Creative Commons лиценце
 
 .. infonote::
 
- У овом видеу ћеш сазнати:
+ У овом видеу ћеш научити:
     •	шта су Creative Commons лиценце;
     •	који је састав и значај Creative Commons лиценци;
     •	који су типови Creative Commons лиценци и који су њихови симболи;
