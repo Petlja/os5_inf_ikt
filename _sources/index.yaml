@@ -285,9 +285,6 @@ lessons:
         file: Квиз прве лекције.rst
         description: #opciono
         guid: 4b29867e-4969-4bff-8182-d38e35a49cde
-    archived-activities: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
-      - guid: de4d8ced-7457-4257-a156-250bdb711d65
-      - guid: 22752682-f23f-4df7-b590-e22780fda0a3
   - title: 2.2. Правила безбедног рада на интернету
     folder: 2.2. Правила безбедног рада на Интернету
     guid: bcaf5f74-33df-4015-b95e-ca37c638bb74
@@ -393,7 +390,3 @@ lessons:
         description: #opciono
         guid: c487d602-0d10-4c9c-bacd-a55fbf435fa1 
     
-archived-lessons: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
-  - guid: 3ced8ac6-8be7-4921-bea7-dccf89a7cc79
-  - guid: 29a3a23a-0cdb-4a2b-ad6b-611d36c39db5
-
