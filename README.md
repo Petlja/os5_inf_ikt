@@ -1,6 +1,6 @@
-# Programiranje za prvi razred specijalizovanih IT odeljenja 
+# IKT i digitalna pismenost za peti razred
 
-Ovaj repozitorijum posvećen je kursu za Programiranje za prvi razred specijalizovanih IT odeljenja. 
+Ovaj repozitorijum posvećen je kursu za IKT i digitalnu pismenost za peti razred. 
 
 Kurs je na Petljom portalu dotupan ovde: [https://petlja.org/kurs/369/0](https://petlja.org/kurs/369/)
 
