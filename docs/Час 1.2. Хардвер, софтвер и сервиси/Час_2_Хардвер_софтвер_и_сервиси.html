@@ -1,367 +1,697 @@
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml" lang="sr-Cyrl">
   <head>
     <meta charset="utf-8" />
-    <title>Час. Хардвер, софтвер и сервиси &#8212; 5_razred_IKT_DigitalnaPismenost</title>
-    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="../_static/matrixeq.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Хардвер, софтвер, подаци</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/datafile.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/dragndrop.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/fitb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/lib/prettify.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/showEval.css" />
     <link rel="stylesheet" type="text/css" href="../_static/tabbedstuff.css" />
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="../_static/video.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/poll.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/showEval.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/dragndrop.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/fitb.css" />
     <link rel="stylesheet" type="text/css" href="../_static/webgldemo.css" />
     <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/datafile.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/parsons.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/lib/prettify.css" />
     <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/simanim.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pycode.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/p5js.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/dbDirective.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/regex-check.css" />
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" type="text/css" />
     <link rel="stylesheet" href="../_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/flatly.min.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/petlja.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/petlja-course.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/nbstyle.css" type="text/css" />
     <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-    <script src="../_static/runestonebase.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/language_data.js"></script>
-    <script src="../_static/matrixeq.js"></script>
-    <script src="../_static/mchoice.js"></script>
-    <script src="../_static/timedmc.js"></script>
-    <script src="../_static/timed.js"></script>
-    <script src="../_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
-    <script src="../_static/jquery_i18n/jquery.i18n.js"></script>
-    <script src="../_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
-    <script src="../_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
-    <script src="../_static/jquery_i18n/jquery.i18n.language.js"></script>
-    <script src="../_static/jquery_i18n/jquery.i18n.parser.js"></script>
-    <script src="../_static/jquery_i18n/jquery.i18n.emitter.js"></script>
-    <script src="../_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
-    <script src="../_static/mchoice-i18n.en.js"></script>
-    <script src="../_static/mchoice-i18n.sr-Cyrl.js"></script>
-    <script src="../_static/jquery.highlight.js"></script>
-    <script src="../_static/bookfuncs.js"></script>
-    <script src="../_static/codemirror.js"></script>
-    <script src="../_static/xml.js"></script>
-    <script src="../_static/css.js"></script>
-    <script src="../_static/python.js"></script>
-    <script src="../_static/htmlmixed.js"></script>
-    <script src="../_static/javascript.js"></script>
-    <script src="../_static/activecode-i18n.en.js"></script>
-    <script src="../_static/activecode-i18n.sr-Cyrl.js"></script>
-    <script src="../_static/skulpt.min.js"></script>
-    <script src="../_static/skulpt-stdlib.js"></script>
-    <script src="../_static/activecode.js"></script>
-    <script src="../_static/clike.js"></script>
-    <script src="../_static/timed_activecode.js"></script>
-    <script src="../_static/tabbedstuff.js"></script>
-    <script src="../_static/runestonevideo.js"></script>
-    <script src="../_static/shortanswer.js"></script>
-    <script src="../_static/timed_shortanswer.js"></script>
-    <script src="../_static/poll.js"></script>
-    <script src="../_static/showEval.js"></script>
-    <script src="../_static/d3.v2.min.js"></script>
-    <script src="../_static/jquery.ba-bbq.min.js"></script>
-    <script src="../_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
-    <script src="../_static/pytutor.js"></script>
-    <script src="../_static/codelens.js"></script>
-    <script src="../_static/clickable.js"></script>
-    <script src="../_static/timedclickable.js"></script>
-    <script src="../_static/dragndrop.js"></script>
-    <script src="../_static/timeddnd.js"></script>
-    <script src="../_static/dragndrop-i18n.en.js"></script>
-    <script src="../_static/dragndrop-i18n.sr-Cyrl.js"></script>
-    <script src="../_static/fitb.js"></script>
-    <script src="../_static/timedfitb.js"></script>
-    <script src="../_static/fitb-i18n.en.js"></script>
-    <script src="../_static/fitb-i18n.sr-Cyrl.js"></script>
-    <script src="../_static/webglinteractive.js"></script>
-    <script src="../_static/FileSaver.min.js"></script>
-    <script src="../_static/Blob.js"></script>
-    <script src="../_static/reveal.js"></script>
-    <script src="../_static/animationbase.js"></script>
-    <script src="../_static/datafile.js"></script>
-    <script src="../_static/lib/prettify.js"></script>
-    <script src="../_static/lib/hammer.min.js"></script>
-    <script src="../_static/parsons.js"></script>
-    <script src="../_static/parsons-i18n.en.js"></script>
-    <script src="../_static/parsons-i18n.sr-Cyrl.js"></script>
-    <script src="../_static/timedparsons.js"></script>
-    <script src="../_static/karelCorner.js"></script>
-    <script src="../_static/karelRobot.js"></script>
-    <script src="../_static/karelWorld.js"></script>
-    <script src="../_static/karelRobotDrawer.js"></script>
-    <script src="../_static/karelUI.js"></script>
-    <script src="../_static/karel.js"></script>
-    <script src="../_static/karel-i18n.en.js"></script>
-    <script src="../_static/karel-i18n.sr-Cyrl.js"></script>
-    <script src="../_static/notes.js"></script>
-    <script src="../_static/pygamelib-init.js"></script>
-    <script src="../_static/blockly/blockly_compressed.js"></script>
-    <script src="../_static/blockly/blocks_compressed.js"></script>
-    <script src="../_static/blockly/python_compressed.js"></script>
-    <script src="../_static/blockly/msg-sr.js"></script>
-    <script src="../_static/blockpy/utilities.js"></script>
-    <script src="../_static/blockpy/python_errors.js"></script>
-    <script src="../_static/blockpy/ast_node_visitor.js"></script>
-    <script src="../_static/blockpy/abstract_interpreter.js"></script>
-    <script src="../_static/blockpy/pytifa.js"></script>
-    <script src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
-    <script src="../_static/blockpy/python_to_blockly.js"></script>
-    <script src="../_static/blockpy/imported.js"></script>
-    <script src="../_static/blockpy/blocks/class.js"></script>
-    <script src="../_static/blockpy/blocks/comment.js"></script>
-    <script src="../_static/blockpy/blocks/comprehensions.js"></script>
-    <script src="../_static/blockpy/blocks/dict.js"></script>
-    <script src="../_static/blockpy/blocks/if.js"></script>
-    <script src="../_static/blockpy/blocks/io.js"></script>
-    <script src="../_static/blockpy/blocks/lists.js"></script>
-    <script src="../_static/blockpy/blocks/sets.js"></script>
-    <script src="../_static/blockpy/blocks/loops.js"></script>
-    <script src="../_static/blockpy/blocks/parking.js"></script>
-    <script src="../_static/blockpy/blocks/tuple.js"></script>
-    <script src="../_static/blockpy/blocks/turtles.js"></script>
-    <script src="../_static/blockpy/blocks/text.js"></script>
-    <script src="../_static/blockpy-modal.js"></script>
-    <script src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
-    <script src="../_static/jquery-fix.js"></script>
-    <script src="../_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
-    <script src="../_static/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../_static/bootstrap-sphinx.js"></script>
-    <script src="../_static/waypoints.min.js"></script>
-    <script src="../_static/rangy-core.js"></script>
-    <script src="../_static/rangy-textrange.js"></script>
-    <script src="../_static/rangy-cssclassapplier.js"></script>
-    <script src="../_static/user-highlights.js"></script>
-    <script src="../_static/jquery.idle-timer.js"></script>
-    <script src="../_static/processing-1.4.1.min.js"></script>
-    <script src="../_static/jquery.hotkey.js"></script>
-    <script src="../_static/jquery-migrate-1.2.1.min.js"></script>
-    <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Квиз. Хардвер, софтвер и сервиси" href="Тест_2_Хардвер_софтвер_и_сервиси.html" />
-    <link rel="prev" title="Час 1.2. Хардвер, софтвер и сервиси" href="index.html" />
-<meta charset='utf-8'>
-<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
-<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-<link rel="shortcut icon" href="../_static/favicon.ico" type="image/ico" />
+    <script type="text/javascript" src="../_static/runestonebase.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/jquery.highlight.js"></script>
+    <script type="text/javascript" src="../_static/bookfuncs.js"></script>
+    <script type="text/javascript" src="../_static/codemirror.js"></script>
+    <script type="text/javascript" src="../_static/xml.js"></script>
+    <script type="text/javascript" src="../_static/css.js"></script>
+    <script type="text/javascript" src="../_static/python.js"></script>
+    <script type="text/javascript" src="../_static/htmlmixed.js"></script>
+    <script type="text/javascript" src="../_static/javascript.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/activecode.js"></script>
+    <script type="text/javascript" src="../_static/clike.js"></script>
+    <script type="text/javascript" src="../_static/timed_activecode.js"></script>
+    <script type="text/javascript" src="../_static/animationbase.js"></script>
+    <script type="text/javascript" src="../_static/mchoice.js"></script>
+    <script type="text/javascript" src="../_static/timedmc.js"></script>
+    <script type="text/javascript" src="../_static/timed.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/clickable.js"></script>
+    <script type="text/javascript" src="../_static/timedclickable.js"></script>
+    <script type="text/javascript" src="../_static/d3.v2.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.ba-bbq.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
+    <script type="text/javascript" src="../_static/pytutor.js"></script>
+    <script type="text/javascript" src="../_static/codelens.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/datafile.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop.js"></script>
+    <script type="text/javascript" src="../_static/timeddnd.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/fitb.js"></script>
+    <script type="text/javascript" src="../_static/timedfitb.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/matrixeq.js"></script>
+    <script type="text/javascript" src="../_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="../_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="../_static/parsons.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/timedparsons.js"></script>
+    <script type="text/javascript" src="../_static/poll.js"></script>
+    <script type="text/javascript" src="../_static/reveal.js"></script>
+    <script type="text/javascript" src="../_static/shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/showEval.js"></script>
+    <script type="text/javascript" src="../_static/tabbedstuff.js"></script>
+    <script type="text/javascript" src="../_static/runestonevideo.js"></script>
+    <script type="text/javascript" src="../_static/webglinteractive.js"></script>
+    <script type="text/javascript" src="../_static/FileSaver.min.js"></script>
+    <script type="text/javascript" src="../_static/Blob.js"></script>
+    <script type="text/javascript" src="../_static/karelCorner.js"></script>
+    <script type="text/javascript" src="../_static/karelRobot.js"></script>
+    <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
+    <script type="text/javascript" src="../_static/karelUI.js"></script>
+    <script type="text/javascript" src="../_static/karel.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/notes.js"></script>
+    <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
+    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
+    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
+    <script type="text/javascript" src="../_static/simanim.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
+    <script type="text/javascript" src="../_static/pycode.js"></script>
+    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
+    <script type="text/javascript" src="../_static/p5js.js"></script>
+    <script type="text/javascript" src="../_static/gallery.js"></script>
+    <script type="text/javascript" src="../_static/dbDirective.js"></script>
+    <script type="text/javascript" src="../_static/sql.js"></script>
+    <script type="text/javascript" src="../_static/associations.js"></script>
+    <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/regex-check.js"></script>
+    <script type="text/javascript" src="../_static/regex-check-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/regex-check-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="../_static/waypoints.min.js"></script>
+    <script type="text/javascript" src="../_static/rangy-core.js"></script>
+    <script type="text/javascript" src="../_static/rangy-textrange.js"></script>
+    <script type="text/javascript" src="../_static/rangy-cssclassapplier.js"></script>
+    <script type="text/javascript" src="../_static/user-highlights.js"></script>
+    <script type="text/javascript" src="../_static/jquery.idle-timer.js"></script>
+    <script type="text/javascript" src="../_static/processing-1.4.1.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.hotkey.js"></script>
+    <script type="text/javascript" src="../_static/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../_static/course-errors.js"></script>
+    <script type="text/javascript" src="../_static/petlja.js"></script>
+    <script type="text/javascript" src="../_static/require.js"></script>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <link rel="shortcut icon" href="../_static/favicon.ico" type="image/ico" />
+    <script type="text/javascript">
+      eBookConfig = {};
+      eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
+      eBookConfig.app = eBookConfig.host + '/runestone';
+      eBookConfig.ajaxURL = eBookConfig.app + '/ajax/';
+      eBookConfig.course = '5_razred_IKT_DigitalnaPismenost';
+      eBookConfig.logLevel = '0';
+      eBookConfig.loginRequired = 'false';
+      eBookConfig.build_info = "";
+      eBookConfig.isLoggedIn = false;
+      eBookConfig.useRunestoneServices = false;
+      eBookConfig.python3 = true;
+      eBookConfig.basecourse = 'Primer_kurs';
+      eBookConfig.runestone_version = '';
+      eBookConfig.imagesDir = '../_images/';
+      eBookConfig.staticDir = '../_static/';
+      if (typeof (Sk) != "undefined")
+        Sk.imgPath = eBookConfig.imagesDir;
+    </script>
 
-<script type="text/javascript">
-  eBookConfig = {};
-  eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
-  eBookConfig.app = eBookConfig.host+'/runestone';
-  eBookConfig.ajaxURL = eBookConfig.app+'/ajax/';
-  eBookConfig.course = '5_razred_IKT_DigitalnaPismenost';
-  eBookConfig.logLevel = 0;
-  eBookConfig.loginRequired = false;
-  eBookConfig.build_info = "";
-  eBookConfig.isLoggedIn = false;
-  eBookConfig.useRunestoneServices = false;
-  eBookConfig.python3 = true;
-  eBookConfig.basecourse = 'Primer_kurs';
-  eBookConfig.runestone_version = '3.1.1';
-  eBookConfig.imagesDir = '../_images/';
-  eBookConfig.staticDir = '../_static/';
-  if(typeof(Sk) != "undefined")
-      Sk.imgPath = eBookConfig.imagesDir;
-</script>
+  </head>
 
-<div id="fb-root"></div>
+  <body>
 
 
 
-  </head><body>
-
-
-<!-- Begin navbar -->
-
-<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
-
-  <div class="container">
-
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-     <img src="../_static/img/logo.png" style="width:80px; height: 80px;"> 
-    </div>
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top: 10px; margin-left: 25px;">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="../">5_razred_IKT_DigitalnaPismenost</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<div style="margin-left: 50%;margin-top: 5%;font-size: 20px;">
-  
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-    <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../Час 1.1. Информатика и рачунарство у савременом животу/index.html">Час 1.1. Информатика и рачунарство у савременом животу</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.1. Информатика и рачунарство у савременом животу/Час_1_Информатика_и_рачунарство_у_савременом_животу.html">Час. Информатика и рачунарство у савременом животу</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.1. Информатика и рачунарство у савременом животу/Тест_1_Информатика_и_рачунарство_у_савременом_животу.html">Квиз. Информатика и рачунарство у савременом животу</a></li>
-</ul>
-</li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">Час 1.2. Хардвер, софтвер и сервиси</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Час. Хардвер, софтвер и сервиси</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Тест_2_Хардвер_софтвер_и_сервиси.html">Квиз. Хардвер, софтвер и сервиси</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../Час 1.3. Подешавање радног окружења/index.html">Час 1.3. Подешавање радног окружења</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.3. Подешавање радног окружења/Час_3_Подешавање_радног_окружења.html">Час. Подешавање радног окружења</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.3. Подешавање радног окружења/Тест_3_Подешавање_радног_окружења.html">Квиз. Подешавање радног окружења</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../Час 1.4. Организација података на рачунару/index.html">Час 1.4. Организација података на рачунару</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.4. Организација података на рачунару/Час_4_Организација_података_на_рачунару.html">Час. Организација података на рачунару</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.4. Организација података на рачунару/Задатак_4_Организација_података_на_рачунару.html">Задаци. Организација података на рачунару</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.4. Организација података на рачунару/Тест_4_Организација_података_на_рачунару.html">Квиз. Организација података на рачунару</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../Час 1.5. Рад са сликама/index.html">Час 1.5. Рад са сликама</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.5. Рад са сликама/Час_5_Рад_са_сликама.html">Час. Рад са сликама</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.5. Рад са сликама/Задатак_5_Рад_са_сликама.html">Задаци. Рад са сликама</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.5. Рад са сликама/Тест_5_Рад_са_сликама.html">Квиз. Рад са сликама</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../Час 1.6 и 1.7. Рад са текстом/index.html">Час 1.6 и 1.7. Рад са текстом</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.6 и 1.7. Рад са текстом/Час_6_Рад_са_текстом.html">Час. Рад са текстом</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.6 и 1.7. Рад са текстом/Тест_6_Рад_са_текстом.html">Квиз 1. Рад са текстом</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.6 и 1.7. Рад са текстом/Час_7_Рад_са_текстом.html">Час. Рад са текстом</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.6 и 1.7. Рад са текстом/Задатак_7_Рад_са_текстом.html">Задаци. Рад са текстом</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.6 и 1.7. Рад са текстом/Тест_7_Рад_са_текстом.html">Квиз 2. Рад са текстом</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../Час 1.8. Снимање звука и видео-записа/index.html">Час 1.8. Снимање звука и видео-записа</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.8. Снимање звука и видео-записа/Час_8_Снимање_звука_и_видео_записа.html">Час. Снимање звука и видео-записа</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.8. Снимање звука и видео-записа/Задатак_8_Снимање_звука_и_видео_записа.html">Задаци. Снимање звука и видео-записа</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.8. Снимање звука и видео-записа/Тест_8_Снимање_звука_и_видео_записа.html">Квиз. Снимање звука и видео-записа</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../Час 1.9. Мултимедијалне презентације/index.html">Час 1.9. Мултимедијалне презентације</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.9. Мултимедијалне презентације/Час_9_Мултимедијалне_презентације.html">Час. Мултимедијалне презентације</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.9. Мултимедијалне презентације/Задатак_9_Мултимедијалне_презентације.html">Задаци. Мултимедијалне презентације</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 1.9. Мултимедијалне презентације/Тест_9_Мултимедијалне_презентације.html">Квиз. Мултимедијалне презентације</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../Час 2.1. Употреба ИКТ уређаја на одговоран и сигуран начин/index.html">Час 2.1. Употреба ИКТ уређаја на одговоран и сигуран начин</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.1. Употреба ИКТ уређаја на одговоран и сигуран начин/Дигитална писменост.html">Дигитална писменост</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.1. Употреба ИКТ уређаја на одговоран и сигуран начин/Исправно реаговање у потенцијално небезбедној ситуацији у коришћењу ИКТ уређаја.html">Исправно реаговање у потенцијално небезбедној ситуацији у коришћењу ИКТ уређаја</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.1. Употреба ИКТ уређаја на одговоран и сигуран начин/Одлагање дигиталног отпада и заштита животне средине.html">Одлагање дигиталног отпада и заштита животне средине</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.1. Употреба ИКТ уређаја на одговоран и сигуран начин/Квиз прве лекције.html">Квиз прве лекције</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../Час 2.2. Правила безбедног рада на Интернету/index.html">Час 2.2. Правила безбедног рада на Интернету</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.2. Правила безбедног рада на Интернету/Функције антивирус програма и заштитног зида.html">Правила безбедног рада на Интернету</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.2. Правила безбедног рада на Интернету/Правила безбедног понашања на Интернету.html">Правила безбедног понашања на Интернету</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.2. Правила безбедног рада на Интернету/Квиз друге лекције.html">Квиз друге лекције</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја/index.html">Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја/Претраживање Интернета, одабир резултата и преузимање садржаја.html">Претраживање Интернета, одабир резултата и преузимање садржаја</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја/Претраживање и преузимање информација са интернета коришћењем претраживача.html">Претраживање и преузимање информација са интернета коришћењем претраживача</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја/Претраживање и преузимање информација са интернета коришћењем претраживача  - Преузимање слике.html">Претраживање и преузимање информација са интернета коришћењем претраживача  - Преузимање слике</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја/Претраживање и преузимање информација са интернета коришћењем претраживача - Преузимање датотеке.html">Претраживање и преузимање информација са интернета коришћењем претраживача - преузимање датотеке</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја/Критички приступ информацијама на интернету.html">Критички приступ информацијама на интернету</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја/Квиз треће лекције.html">Квиз треће лекције</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../Час 2.4. Заштита приватности личних података и ауторска права/index.html">Час 2.4. Заштита приватности личних података и ауторска права</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.4. Заштита приватности личних података и ауторска права/Заштита приватности личних података и ауторска права.html">Заштита приватности личних података и ауторска права</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.4. Заштита приватности личних података и ауторска права/Creative Commons лиценце.html">Creative Commons лиценце</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.4. Заштита приватности личних података и ауторска права/Квиз четврте лекције.html">Квиз четврте лекције</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../Час 2.5. Заштита здравља, ризик зависности од технологије и управљање временом/index.html">Заштита здравља, ризик зависности од технологије и управљање временом</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.5. Заштита здравља, ризик зависности од технологије и управљање временом/Заштита здравља, ризик зависности од технологије и управљање временом.html">Заштита здравља, ризик зависности од технологије и управљање временом</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Час 2.5. Заштита здравља, ризик зависности од технологије и управљање временом/Квиз пете лекције.html">Квиз пете лекције</a></li>
-</ul>
-</li>
-</ul>
-</ul>
-
+<div id="navbar" class="content-header">
+  <div class="right-side-nav">
+    
+    <div id="usefulLinksToggle" class="useful-links-toggle">
+        <a class="dropdown-toggle dropdown-toggle-burger" role="button" href="#" id="usefulLinksDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bars fa-2x"></i>
+        </a>
+        <div class="dropdown-menu dropdown-nav-links shadow-lg" aria-labelledby="usefulLinksDropdown" x-placement="bottom-start" style="position: absolute; transform: translate3d(-55px, 32px, 0px); top: 0px; left: 0px; will-change: transform;">
+          <div class="links-title"> Корисни линкови</div>
+          <div class="useful-link">
+            <a href="https://pametnoibezbedno.gov.rs/" target="_blank">Паметно и безбедно</a></div>
+          <div class="useful-link">
+            <a href="http://www.netpatrola.rs/" target="_blank">Нет патрола</a></div>
+          <div class="useful-link">
+            <a href="https://kliknibezbedno.wordpress.com/opsta-bezbednst-na-internetu/" target="_blank">Кликни безбедно</a></div>
+          <div class="useful-link">
+            <a href="https://www.unicef.org/serbia/zaustavimo-digitalno-nasilje" target="_blank">Шта је дигитално насиље и како да га зауставимо</a></div>
+          <div class="useful-link">
+            <a href="https://www.youtube.com/playlist?list=PLG6HMr6sRAxk5fYkFHmTrZEFoY4dkhE_V" target="_blank">Све боје интернета</a></div>
+          
         </div>
-      </div>
-  </div>
-<div class="container col-md-12" id="continue-reading"></div>
+    </div>
 
-<div class="container col-md-10 col-md-offset-2" id="main-content" style="margin-top: 70px;">
+    
+</div>
+
+<div class="left-side-nav">
+  <div class="course-logo-nav">
+      <a target="_blank" href="https://petlja.org">
+          <img src="../_static/img/petlja-logo-wt.svg" alt="petlja.org" id="lightPetljaLogo">
+      </a>
+  </div>
+  <div class="course-logo-nav-kabinet">
+      <a target="_blank" href="https://petlja.org/net.kabinet">
+          <img src="../_static/img/netkabinet-logo-strelica-wt.svg" alt="petlja.org" id="lightNetKabinetLogo">
+      </a>
+  </div>
+</div>
+
+
+<div class="content-header-label" id = "content-header-label" href="../">ИКТ и Дигитална писменост</div>
+
+</div>
+
+
+
+
+<div class="petljaCourseContainer">
+
+<div class="petljaCourseContent">
   
+           <div class="tableOfContent">
+            <h5> Садржај </h5>
+            </div>
+           <div>
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-1_ИКТ>
+                    <h5>1. Информационо-комуникационе технологије</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../1_ИКТ/Информационо_комуникационе_технологије.html><div class="studioLecture" id=activity-Информационо_комуникационе_технологије><i class="fas fa-file-alt activity-icon"></i>Информационо-комуникационе технологије</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Час%201.1.%20Информатика%20и%20рачунарство%20у%20савременом%20животу>
+                    <h5>1.1. Информатика и рачунарство у савременом животу</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Час%201.1.%20Информатика%20и%20рачунарство%20у%20савременом%20животу/Час_1_Информатика_и_рачунарство_у_савременом_животу.html><div class="studioLecture" id=activity-Час_1_Информатика_и_рачунарство_у_савременом_животу><i class="fas fa-file-alt activity-icon"></i>Информатика и рачунарство у савременом животу</div></a>
+                <a href=../Час%201.1.%20Информатика%20и%20рачунарство%20у%20савременом%20животу/Тест_1_Информатика_и_рачунарство_у_савременом_животу.html><div class="studioLecture" id=activity-Тест_1_Информатика_и_рачунарство_у_савременом_животу><i class="far fa-question-circle activity-icon"></i>Квиз. Информатика и рачунарство у савременом животу</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Час%201.2.%20Хардвер,%20софтвер%20и%20сервиси>
+                    <h5>1.2. Хардвер, софтвер и сервиси</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Час%201.2.%20Хардвер,%20софтвер%20и%20сервиси/Час_2_Хардвер_софтвер_и_сервиси.html><div class="studioLecture" id=activity-Час_2_Хардвер_софтвер_и_сервиси><i class="fas fa-file-alt activity-icon"></i>Хардвер, софтвер и сервиси</div></a>
+                <a href=../Час%201.2.%20Хардвер,%20софтвер%20и%20сервиси/Тест_2_Хардвер_софтвер_и_сервиси.html><div class="studioLecture" id=activity-Тест_2_Хардвер_софтвер_и_сервиси><i class="far fa-question-circle activity-icon"></i>Квиз. Хардвер, софтвер и сервиси</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Час%201.3.%20Подешавање%20радног%20окружења>
+                    <h5>1.3. Подешавање радног окружења</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Час%201.3.%20Подешавање%20радног%20окружења/Час_3_Подешавање_радног_окружења.html><div class="studioLecture" id=activity-Час_3_Подешавање_радног_окружења><i class="fas fa-file-alt activity-icon"></i>Подешавање радног окружења</div></a>
+                <a href=../Час%201.3.%20Подешавање%20радног%20окружења/Тест_3_Подешавање_радног_окружења.html><div class="studioLecture" id=activity-Тест_3_Подешавање_радног_окружења><i class="far fa-question-circle activity-icon"></i>Квиз. Подешавање радног окружења</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Час%201.4.%20Организација%20података%20на%20рачунару>
+                    <h5>1.4. Организација података на рачунару</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Час%201.4.%20Организација%20података%20на%20рачунару/Час_4_Организација_података_на_рачунару.html><div class="studioLecture" id=activity-Час_4_Организација_података_на_рачунару><i class="fas fa-file-alt activity-icon"></i>Организација података на рачунару</div></a>
+                <a href=../Час%201.4.%20Организација%20података%20на%20рачунару/Задатак_4_Организација_података_на_рачунару.html><div class="studioLecture" id=activity-Задатак_4_Организација_података_на_рачунару><i class="fas fa-file-alt activity-icon"></i>Задаци. Организација података на рачунару</div></a>
+                <a href=../Час%201.4.%20Организација%20података%20на%20рачунару/Тест_4_Организација_података_на_рачунару.html><div class="studioLecture" id=activity-Тест_4_Организација_података_на_рачунару><i class="far fa-question-circle activity-icon"></i>Квиз. Организација података на рачунару</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Час%201.5.%20Рад%20са%20сликама>
+                    <h5>1.5. Рад са сликама</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Час%201.5.%20Рад%20са%20сликама/Час_5_Рад_са_сликама.html><div class="studioLecture" id=activity-Час_5_Рад_са_сликама><i class="fas fa-file-alt activity-icon"></i>Рад са сликама</div></a>
+                <a href=../Час%201.5.%20Рад%20са%20сликама/Задатак_5_Рад_са_сликама.html><div class="studioLecture" id=activity-Задатак_5_Рад_са_сликама><i class="fas fa-file-alt activity-icon"></i>Задаци. Рад са сликама</div></a>
+                <a href=../Час%201.5.%20Рад%20са%20сликама/Тест_5_Рад_са_сликама.html><div class="studioLecture" id=activity-Тест_5_Рад_са_сликама><i class="far fa-question-circle activity-icon"></i>Квиз. Рад са сликама</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Час%201.6%20и%201.7.%20Рад%20са%20текстом>
+                    <h5>1.6 и 1.7. Рад са текстом</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Час%201.6%20и%201.7.%20Рад%20са%20текстом/Час_6_Рад_са_текстом.html><div class="studioLecture" id=activity-Час_6_Рад_са_текстом><i class="fas fa-file-alt activity-icon"></i>Рад са тесктом - унос текста и дигитални правопис</div></a>
+                <a href=../Час%201.6%20и%201.7.%20Рад%20са%20текстом/Тест_6_Рад_са_текстом.html><div class="studioLecture" id=activity-Тест_6_Рад_са_текстом><i class="far fa-question-circle activity-icon"></i>Квиз 1. Рад са текстом</div></a>
+                <a href=../Час%201.6%20и%201.7.%20Рад%20са%20текстом/Час_7_Рад_са_текстом.html><div class="studioLecture" id=activity-Час_7_Рад_са_текстом><i class="fas fa-file-alt activity-icon"></i>Рад са тесктом - едитовање и форматирање текста</div></a>
+                <a href=../Час%201.6%20и%201.7.%20Рад%20са%20текстом/Задатак_7_Рад_са_текстом.html><div class="studioLecture" id=activity-Задатак_7_Рад_са_текстом><i class="fas fa-file-alt activity-icon"></i>Задаци. Рад са текстом</div></a>
+                <a href=../Час%201.6%20и%201.7.%20Рад%20са%20текстом/Тест_7_Рад_са_текстом.html><div class="studioLecture" id=activity-Тест_7_Рад_са_текстом><i class="far fa-question-circle activity-icon"></i>Квиз 2. Рад са текстом</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Час%201.8.%20Снимање%20звука%20и%20видео-записа>
+                    <h5>1.8. Снимање звука и видео-записа</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Час%201.8.%20Снимање%20звука%20и%20видео-записа/Час_8_Снимање_звука_и_видео_записа.html><div class="studioLecture" id=activity-Час_8_Снимање_звука_и_видео_записа><i class="fas fa-file-alt activity-icon"></i>Снимање звука и видео-записа</div></a>
+                <a href=../Час%201.8.%20Снимање%20звука%20и%20видео-записа/Задатак_8_Снимање_звука_и_видео_записа.html><div class="studioLecture" id=activity-Задатак_8_Снимање_звука_и_видео_записа><i class="fas fa-file-alt activity-icon"></i>Задаци. Снимање звука и видео-записа</div></a>
+                <a href=../Час%201.8.%20Снимање%20звука%20и%20видео-записа/Тест_8_Снимање_звука_и_видео_записа.html><div class="studioLecture" id=activity-Тест_8_Снимање_звука_и_видео_записа><i class="far fa-question-circle activity-icon"></i>Квиз. Снимање звука и видео-записа</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Час%201.9.%20Мултимедијалне%20презентације>
+                    <h5>1.9. Мултимедијалне презентације</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Час%201.9.%20Мултимедијалне%20презентације/Час_9_Мултимедијалне_презентације.html><div class="studioLecture" id=activity-Час_9_Мултимедијалне_презентације><i class="fas fa-file-alt activity-icon"></i>Мултимедијалне презентације</div></a>
+                <a href=../Час%201.9.%20Мултимедијалне%20презентације/Задатак_9_Мултимедијалне_презентације.html><div class="studioLecture" id=activity-Задатак_9_Мултимедијалне_презентације><i class="fas fa-file-alt activity-icon"></i>Задаци. Мултимедијалне презентације</div></a>
+                <a href=../Час%201.9.%20Мултимедијалне%20презентације/Тест_9_Мултимедијалне_презентације.html><div class="studioLecture" id=activity-Тест_9_Мултимедијалне_презентације><i class="far fa-question-circle activity-icon"></i>Квиз. Мултимедијалне презентације</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2_dp>
+                    <h5>2. Дигитална писменост</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2_dp/Дигитална%20писменост.html><div class="studioLecture" id=activity-Дигитална%20писменост><i class="fas fa-file-alt activity-icon"></i>2. Дигитална писменост</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2.1.%20Употреба%20ИКТ%20уређаја%20на%20одговоран%20и%20сигуран%20начин>
+                    <h5>2.1. Употреба ИКТ уређаја на одговоран и сигуран начин</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2.1.%20Употреба%20ИКТ%20уређаја%20на%20одговоран%20и%20сигуран%20начин/Исправно%20реаговање%20у%20потенцијално%20небезбедној%20ситуацији%20у%20коришћењу%20ИКТ%20уређаја.html><div class="studioLecture" id=activity-Исправно%20реаговање%20у%20потенцијално%20небезбедној%20ситуацији%20у%20коришћењу%20ИКТ%20уређаја><i class="fas fa-file-alt activity-icon"></i>Исправно реаговање у потенцијално небезбедној ситуацији при коришћењу ИКТ уређаја</div></a>
+                <a href=../2.1.%20Употреба%20ИКТ%20уређаја%20на%20одговоран%20и%20сигуран%20начин/Одлагање%20дигиталног%20отпада%20и%20заштита%20животне%20средине.html><div class="studioLecture" id=activity-Одлагање%20дигиталног%20отпада%20и%20заштита%20животне%20средине><i class="fas fa-file-alt activity-icon"></i>Одлагање дигиталног отпада и заштита животне средине</div></a>
+                <a href=../2.1.%20Употреба%20ИКТ%20уређаја%20на%20одговоран%20и%20сигуран%20начин/Квиз%20прве%20лекције.html><div class="studioLecture" id=activity-Квиз%20прве%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз прве лекције</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2.2.%20Правила%20безбедног%20рада%20на%20Интернету>
+                    <h5>2.2. Правила безбедног рада на интернету</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2.2.%20Правила%20безбедног%20рада%20на%20Интернету/Функције%20антивирус%20програма%20и%20заштитног%20зида.html><div class="studioLecture" id=activity-Функције%20антивирус%20програма%20и%20заштитног%20зида><i class="fas fa-file-alt activity-icon"></i>Функције антивирус програма и заштитног зида</div></a>
+                <a href=../2.2.%20Правила%20безбедног%20рада%20на%20Интернету/Правила%20безбедног%20понашања%20на%20Интернету.html><div class="studioLecture" id=activity-Правила%20безбедног%20понашања%20на%20Интернету><i class="fas fa-file-alt activity-icon"></i>Правила безбедног понашања на Интернету</div></a>
+                <a href=../2.2.%20Правила%20безбедног%20рада%20на%20Интернету/Квиз%20друге%20лекције.html><div class="studioLecture" id=activity-Квиз%20друге%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз друге лекције</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2.3.%20Претраживање%20Интернета,%20одабир%20резултата%20и%20преузимање%20садржаја>
+                    <h5>2.3. Претраживање Интернета, одабир резултата и преузимање садржаја</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2.3.%20Претраживање%20Интернета,%20одабир%20резултата%20и%20преузимање%20садржаја/Претраживање%20Интернета,%20одабир%20резултата%20и%20преузимање%20садржаја.html><div class="studioLecture" id=activity-Претраживање%20Интернета,%20одабир%20резултата%20и%20преузимање%20садржаја><i class="fas fa-file-alt activity-icon"></i>Претраживање Интернета, одабир резултата и преузимање садржаја</div></a>
+                <a href=../2.3.%20Претраживање%20Интернета,%20одабир%20резултата%20и%20преузимање%20садржаја/Претраживање%20и%20преузимање%20информација%20са%20интернета%20коришћењем%20претраживача.html><div class="studioLecture" id=activity-Претраживање%20и%20преузимање%20информација%20са%20интернета%20коришћењем%20претраживача><i class="fas fa-file-alt activity-icon"></i>Претраживање Интернета, одабир резултата и преузимање садржаја 1</div></a>
+                <a href=../2.3.%20Претраживање%20Интернета,%20одабир%20резултата%20и%20преузимање%20садржаја/Претраживање%20и%20преузимање%20информација%20са%20интернета%20коришћењем%20претраживача%20%20-%20Преузимање%20слике.html><div class="studioLecture" id=activity-Претраживање%20и%20преузимање%20информација%20са%20интернета%20коришћењем%20претраживача%20%20-%20Преузимање%20слике><i class="fas fa-file-alt activity-icon"></i>Претраживање Интернета, одабир резултата и преузимање садржаја 2</div></a>
+                <a href=../2.3.%20Претраживање%20Интернета,%20одабир%20резултата%20и%20преузимање%20садржаја/Претраживање%20и%20преузимање%20информација%20са%20интернета%20коришћењем%20претраживача%20-%20Преузимање%20датотеке.html><div class="studioLecture" id=activity-Претраживање%20и%20преузимање%20информација%20са%20интернета%20коришћењем%20претраживача%20-%20Преузимање%20датотеке><i class="fas fa-file-alt activity-icon"></i>Претраживање Интернета, одабир резултата и преузимање садржаја 3</div></a>
+                <a href=../2.3.%20Претраживање%20Интернета,%20одабир%20резултата%20и%20преузимање%20садржаја/Критички%20приступ%20информацијама%20на%20интернету.html><div class="studioLecture" id=activity-Критички%20приступ%20информацијама%20на%20интернету><i class="fas fa-file-alt activity-icon"></i>Критички приступ информацијама на интернету</div></a>
+                <a href=../2.3.%20Претраживање%20Интернета,%20одабир%20резултата%20и%20преузимање%20садржаја/Квиз%20треће%20лекције.html><div class="studioLecture" id=activity-Квиз%20треће%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз треће лекције</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2.4.%20Заштита%20приватности%20личних%20података%20и%20ауторска%20права>
+                    <h5>2.4. Заштита приватности личних података и ауторска права</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2.4.%20Заштита%20приватности%20личних%20података%20и%20ауторска%20права/Заштита%20приватности%20личних%20података%20и%20ауторска%20права.html><div class="studioLecture" id=activity-Заштита%20приватности%20личних%20података%20и%20ауторска%20права><i class="fas fa-file-alt activity-icon"></i>Заштита приватности личних података и ауторска права</div></a>
+                <a href=../2.4.%20Заштита%20приватности%20личних%20података%20и%20ауторска%20права/Creative%20Commons%20лиценце.html><div class="studioLecture" id=activity-Creative%20Commons%20лиценце><i class="fas fa-file-alt activity-icon"></i>Creative Commons лиценце</div></a>
+                <a href=../2.4.%20Заштита%20приватности%20личних%20података%20и%20ауторска%20права/Квиз%20четврте%20лекције.html><div class="studioLecture" id=activity-Квиз%20четврте%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз четврте лекције</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2.5.%20Заштита%20здравља,%20ризик%20зависности%20од%20технологије%20и%20управљање%20временом>
+                    <h5>2.5. Заштита здравља, ризик зависности од технологије и управљање временом</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2.5.%20Заштита%20здравља,%20ризик%20зависности%20од%20технологије%20и%20управљање%20временом/Заштита%20здравља,%20ризик%20зависности%20од%20технологије%20и%20управљање%20временом.html><div class="studioLecture" id=activity-Заштита%20здравља,%20ризик%20зависности%20од%20технологије%20и%20управљање%20временом><i class="fas fa-file-alt activity-icon"></i>Заштита здравља, ризик зависности од технологије и управљање временом</div></a>
+                <a href=../2.5.%20Заштита%20здравља,%20ризик%20зависности%20од%20технологије%20и%20управљање%20временом/Квиз%20пете%20лекције.html><div class="studioLecture" id=activity-Квиз%20пете%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз пете лекције</div></a>
+                </div>
+            </div>
+                </div>
+</div>
+
+
+
+<div class="lectureContent">
+
+  <div id="errors">
+  </div>
+  
+  <div class="lectureContentMaterial">
+  
+    <div id="main-content">
+    
   <div class="section" id="id1">
-<h1>Час. Хардвер, софтвер и сервиси<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<h1>Хардвер, софтвер, подаци<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 
     <div class="course-box course-box-info">
         <div class="course-content">
             <p>
 <dl class="simple">
-<dt>На овом часу ћемо говорити о:</dt><dd><ul class="simple">
-<li><p>физичким деловима дигиталних уређаја (хардверу);</p></li>
-<li><p>програмима (софтверу) и услугама (сервисима);</p></li>
-<li><p>начину приказивања података;</p></li>
-<li><p>одржавању и правилној употреби дигиталних уређаја.</p></li>
+<dt>На овом часу ћеш научити:</dt><dd><ul class="simple">
+<li><p>нешто више о физичким деловима рачунарског система (хардверу);</p></li>
+<li><p>разлику између системских и корисничких програма који припадају софтверу;</p></li>
+<li><p>шта обухвата софтвер као сервис и како се користе онлајн програми;</p></li>
+<li><p>како се одржавају и правилно употребљавају дигитални уређаји;</p></li>
+<li><p>на који начин се подаци представљају у дигиталним уређајима.</p></li>
 </ul>
 </dd>
 </dl>
 
     </p></div></div>
-<p>Људи свакодневно користе дигиталне уређаје на послу, у школи и код куће.
-Сваки дигитални уређаји састоје се од две основне компоненете: <strong>хардвера</strong> и <strong>софтвера</strong>.</p>
-<p><strong>Хардвер</strong> је физички део дигиталног уређаја. Хардвер је енглеска реч (енг. Hardware) која у буквалном преводу значи гомила гвожђурије.</p>
-<p>Док је <strong>софтвер</strong> програм или упутство које поручује хардверу шта треба да ради.</p>
 <div class="section" id="id2">
 <h2>Хардвер<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<p>Сви дигитални уређаји имају исти основни хардвер - тачније скуп делова који су неопходни за рад дигиталног уређаја. Неки од њих су смештени у кутији - кућишту (процесор, радна меморија, меморија за чување података, матична плоча, графичка и звучна картица), док су други видљиви (монитор, миш, тастатура, звучници). Постоји и велики број додатних уређаја (скенер, штампач, волан, џојстик) који ти омогућавају да одређене задатке радиш брже и лакше.</p>
-<a class="reference internal image-reference" href="../_images/L2S1.png"><img alt="../_images/L2S1.png" class="align-center" src="../_images/L2S1.png" style="width: 700px;" /></a>
-<p>На слици је приказано: 1-скенер, 2- процесор, 3- радна меморија, 4- картице за проширење, 5- напајање, 6 – оптички диск, 7 – тврди диск, 8 – матична плоча, 9 – звучник, 10 – монитор, 11 – системски програм, 12 –кориснички програм, 13 – тастатура, 14 – миш, 15 – спољни тврди диск,  16 - штампач.
-Најважнији делови дигиталних уређаја смештени у кућиште. Кућиште је кутија направљена од челика или алуминијума, чија је улога да штити садржај од прашине и температуре, као и од случајног контакта са течношћу.</p>
-<p>Ако отворимо кућиште било ког дигиталног уређаја, можемо пронаћи следеће компоненте:</p>
-<a class="reference internal image-reference" href="../_images/L2S2.png"><img alt="../_images/L2S2.png" class="align-center" src="../_images/L2S2.png" style="width: 500px;" /></a>
-<p><strong>Процесор</strong> уређај који извршава наредбе и обрађује податке.</p>
-<p><strong>Радна меморија</strong> уређај који чува податке и програме са којима процесор ради. Она омогућава процесору да брзо приступа потребним подацима и програмима. Када рачунар искључиш, процесор престаје са радом, а из радне меморије све се брише.</p>
-<p><strong>Тврди диск</strong> или <strong>хард диск</strong>, врсту меморије која трајно чува податке и програме, без обзира да ли је рачунар укључен или не.</p>
-<p>Основна јединица изражава се у бајтим (B), тачније KB (килобајт), MB (мегабајт) и TB (терабајт).</p>
-<a class="reference internal image-reference" href="../_images/L2S3.png"><img alt="../_images/L2S3.png" class="align-center" src="../_images/L2S3.png" style="width: 700px;" /></a>
-<p><strong>Графичка картица</strong> уређај који је задужен да створи и контролише слику која се приказује на екрану дигиталног уређаја.</p>
-<p><strong>Звучна картица</strong> уређај који, уз звучнике, обезбеђује да чујемо звук.</p>
-<p><strong>Матична плоча</strong> уређај који повезује све делове рачунарског система у једну складну целину.</p>
-<p>Врло су важни делови помоћу којих задајемо наредбе дигиталном уређају. То најчешће радимо коришћењем <strong>тастатуре</strong> и <strong>миша</strong>.</p>
-<p>Тастатура обезбеђује унос текста, бројева, знакова и инструкција. Код десктоп и лаптоп рачунара тастатура је физичка компонента, док је код „паметних“ телефона и таблета она виртуелна (слова, бројеве и знакове куцамо додиривањем одређених делова екрана).</p>
-<p>Помоћу миша померамо курсор на екрану и задајемо наредбе.</p>
-<p>Повратну информацију (одговор на наредбе, резултат) дигитални уређај нам саопштава на екрану. <strong>Екран</strong> је уређај који приказује слику – екран телефона, екран монитора, екран телевизора, екран таблета и лаптопа. Екран је осветљена плоча прекривена са два слоја филтера, један филтер контролише светлост, а други боју. Све боје на екрану добијене су мешањем три основне боје – црвене, зелене и плаве (енглески RGB, скраћени запис од red, green and blue).
-Таблети и већина телефона имају екране осетљиве на додир, који имају додатни слој који је осетљив на најмање промене притиска, које чинимо додиром прста, тако да их можемо користити и за давање инструкција.</p>
-<p>Слика коју видимо на екрану дигиталног уређаја сачињена је од <strong>тачкица (пискела)</strong>. Сваку слику можемо да замислимо као мозаик, састављен од пиксела распоређених по хоризонтали и вертикали.</p>
-<p>Број пиксела од којих је слика сачињена назива се <strong>резолуција</strong>. Квалитет слике приказане на екрану дигиталног уређаја зависи од квалитета графичке картице и екрана. Основна карактеристика графичке картице је максимална резолуција које могу да прикажу. Боља графичка картица приказује више пиксела и приказује бољу слику. Осим резолуције, важан је и број боја које могу да се прикажу.</p>
-<p>У слици ниске резолуције пиксели су већи, па је потребно мање њих да испуне простор. То резултира сликама које изгледају блокадно или пикселирано. Слика високе резолуције има више пиксела, па изгледа много боље када је увећате или истежете. Слаба страна овако представљених слика је што ће величина датотеке бити већа.</p>
+<p>Чим први пут седнеш за рачунар, неке његове делове одмах приметиш и брзо разумеш чему служе и како се користе.</p>
+
+    <div class="course-box course-box-special">
+        <div class="course-content">
+            <h4 class="carbox-title">
+                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
+            </h4>
+            <p>
+<p>Одговори на следећа питања и упореди своје одговоре са одговорима својих другова и другарица. Покушајте заједно да срочите што једноставније, а што потпуније одговоре.</p>
+<div class="line-block">
+<div class="line">Чему служи тастатура?</div>
+<div class="line">Чему служи миш?</div>
+<div class="line">Чему служи монитор (или уграђени екран)?</div>
+<div class="line">Како се користи екран осетљив на додир? Како се увећава (зумира) приказ на таквим екранима? На којим уређајима постоји такав екран?</div>
+</div>
+
+    </p></div></div>
+<p>Поред поменутих делова, рачунари често имају и звучнике, микрофон, штампач и друге уређаје који могу да се прикључе на њега (нпр. спољна меморија, скенер, џојстик, 3Д-миш и многи други). Неки од ових уређаја су ти вероватно познати, а неки можда и нису.</p>
+<ul class="simple">
+<li><p>спољна меморија је додатна меморија на којој можеш да чуваш слике, песме, документе, програме и друго. Постоји више врста спољне меморије, а најчешће су флеш меморије и дискови.</p></li>
+<li><p>штампач преноси текст и слике из рачунара на папир.</p></li>
+<li><p>скенер служи да пренесе слику са папира у рачунар.</p></li>
+<li><p>џојстик (палица за игру) служи за задавање команди нагињањем ручке на разне стране и притискањем дугмади, користи се највише у рачунарским играма.</p></li>
+<li><p>3Д миш (три-де миш) служи за стварање, прегледање и мењање тродимензионих слика у рачунару, сличнији је џојстику него обичном мишу.</p></li>
+</ul>
+
+    <div class="course-box course-box-special">
+        <div class="course-content">
+            <h4 class="carbox-title">
+                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
+            </h4>
+            <p>
+<p>Разговарај са својим друговима и другарицама о употреби ових уређаја. Ако користиш штампач, скенер, или неки други уређај повезан на рачунар, или често имаш прилике да видиш некога ко их користи, испричај како се користе. Ако их лично користиш, колико ти је требало времена да научиш да их употребљаваш? Да ли ти је неко помагао? Да ли је било неких проблема приликом употребе?</p>
+
+    </p></div></div>
+<p>Осим уређаја који се прикључују на рачунар и који се одмах виде, постоји и неколико важних делова у кућишту рачунара. Ти делови су прилично осетљиви, па је важно да водиш рачуна и чуваш их од прашине, течности, масноће, удараца, јаких магнета и свега другог што може да их оштети.</p>
+<div class="topic">
+<p class="topic-title">Савет</p>
+<div class="line-block">
+<div class="line">☛ Немој да држиш чашу са водом или другим пићем близу рачунара и његових делова.</div>
+<div class="line">☛ Рукуј рачунаром пажљиво, не додируј рачунар масним прстима.</div>
+<div class="line">☛ Редовно бриши прашину са и око уређаја. За брисање екрана користе се специјалне тканине, сличне оним за брисање наочара.</div>
+<div class="line">☛ Када замениш неки дотрајали или застарели део, не бацај га у смеће са осталим отпадом. Електронски отпад спада у материје које су врло штетне по природу и треба га одлагати на безбедан начин, или још боље - рециклирати. Постоје комуналне службе и фирме које бесплатно одвозе електронски отпад. Ако имаш електронски отпад, консултуј се са одраслима у вези са одлагањем или рециклирањем.</div>
+</div>
+</div>
+<div class="figure align-center" id="id8">
+<a class="reference internal image-reference" href="../_images/L2S1.png"><img alt="../_images/L2S1.png" src="../_images/L2S1.png" style="width: 700px;" /></a>
+<p class="caption"><span class="caption-text">Рачунарски систем: 1 - скенер, 2 - процесор, 3 - радна меморија, 4 - картице за проширење, 5 - напајање, 6 – оптички диск, 7 – тврди диск, 8 – матична плоча, 9 – звучник, 10 – монитор, 11 – системски програм, 12 –кориснички програм, 13 – тастатура, 14 – миш, 15 – спољни тврди диск,  16 - штампач. Преузето са <a class="reference external" href="https://commons.wikimedia.org/wiki/File:Personal_computer,_exploded_6.svg">wikimedia</a>.</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</div>
+<p>Рачунар не мора да има све делове који су до сада поменути или приказани на овој слици. На пример, многи рачунари сасвим нормално раде свој посао без звучника, микрофона, или штампача. Међутим, неки делови су непоходни за рад рачунара и без њих рачунар не може да постоји.</p>
+
+    <div class="course-box course-box-info">
+        <div class="course-content">
+            <p>
+<p>Сваки рачунар <strong>мора</strong> да има следеће делове:</p>
+<ul class="simple">
+<li><p><strong>напајање</strong> - део рачунара који обезбеђује снабдевање осталих делова електричном енергијом;</p></li>
+<li><p><strong>процесор</strong> - најважнији, централни део рачунара. Он тумачи (декодира) наредбе, управља другим деловима рачунара и обавља израчунавања;</p></li>
+<li><p><strong>радна меморија</strong> - део из ког процесор преузима програме које извршава и податке које обрађује, а у који процесор враћа резултате.</p></li>
+</ul>
+
+    </p></div></div>
+<p>Рачунари и други дигитални уређаји раде на струју, па је јасно да је напајање неопходно. Код неких дигиталних уређаја напајање долази из батерије која се пуни из електричне мреже, док други директно користе струју из мреже.</p>
+<p>Суштина рада рачунара је да веома брзо извршава једну по једну једноставну наредбу, а то без процесора не би било могуће. Процесор координира радом свих делова рачунара и користи их да би извршавао наредбе програма. Осим посла око организације рада свих делова, процесор обавља сва потребна рачунања, односно обраду података. Наредбе које извршава и податке које обрађује, процесор узима из радне меморије, а у њу враћа резултате рачунања. Процесор и радна меморија размењују податке веома великом брзином.</p>
+<p>Сви остали делови нису нужни, мада су неки врло уобичајени. Данас је тешко замислити нпр. рачунар без тастатуре или екрана, али поменимо као занимљивост да први електронски рачунари заиста нису имали ни тастатуре ни екране. Наравно, због тога коришћење тих рачунара није било удобно као данас, али и они су (као и данашњи рачунари) имали процесоре и меморију и обављали су неке послове.</p>
+<p>Још неки важни делови рачунара који се налазе у кућишту су:</p>
+<ul class="simple">
+<li><p><strong>Матична плоча</strong> - компонента која повезује проводницима све делове рачунарског система и омогућава им да размењују сигнале (команде и податке);</p></li>
+<li><p><strong>Диск</strong> (каже се и тврди диск или хард диск) - компонента која памти податке и програме чак и када је рачунар искључен.</p></li>
+<li><p><strong>Читач и писач оптичких дискова</strong> - компонента која ти омогућава да чуваш и користиш податке и програме са оптичких дискова (<em>CD</em>, <em>DVD</em>). Данас се све мање користи, јер су га замениле флеш меморије, које су удобније за употребу и отпорније на оштећења.</p></li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Све ове делове рачунара заједно зовемо <strong>хардвер</strong> (енгл. <em>hardware</em> - ствари од гвожђа).</p>
+</div>
 <div class="section" id="id3">
-<h3>Задатак 1:<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
-<p>Дата је слика:</p>
-<a class="reference internal image-reference" href="../_images/L2S4.jpg"><img alt="../_images/L2S4.jpg" class="align-center" src="../_images/L2S4.jpg" style="width: 600px;" /></a>
-<p>чија је резолуција 1024x600 пиксела.</p>
+<h2>Софтвер<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>Да би рачунар или дигитални уређај могао да ради, неопходно је да осим физичких делова (хардвера) има и програме, који представљају упутства за рад рачунару. Све програме заједно називамо <strong>софтвер</strong>.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="line-block">
+<div class="line">🤔 Када укључиш рачунар или паметан телефон, на екрану се појаве сличице које представљају програме или податке. Шта мислиш како су се те сличице појавиле на екрану?</div>
+<div class="line">🤔 Раније смо поменули да се у радној меморији налази програм који се у том тренутку извршава на процесору. Шта мислиш како је тај програм доспео у радну меморију?</div>
+<div class="line">🤔 Када копирамо податке са једног места у рачунару на друго, шта мислиш који програм обавља то копирање?</div>
+</div>
+<p>Одговор на сва ова питања је исти. На рачунару постоји један главни, велики програм (у ствари скуп програма), који се зове оперативни систем. Он нам омогућава да покрећемо и заустављамо друге програме, да копирамо податке или да започенемо било шта на рачунару. Без оперативног система рачунар не може да се користи. Различити дигитални уређаји користе разне оперативне системе. Неки познати оперативни системи су <em>Windows</em> (виндоуз), <em>Linux</em> (линукс), <em>Android</em> и <em>iOS</em>.</p>
+
+    <div class="course-box course-box-special">
+        <div class="course-content">
+            <h4 class="carbox-title">
+                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
+            </h4>
+            <p>
+<p>Да ли знаш који оперативни систем користи уређај са кога ово читаш, или уређај који најчешће користиш?</p>
+
+    </p></div></div>
+<p>Вероватно примећујеш да постоји много модела мишева, тастатура, штампача и осталих рачунарских компоненти. Сваки модел је мало другачији од осталих и можда је потребно слати му мало другачије сигнале (и другачије тумачити сигнале које он шаље) да би био исправно коришћен. Зато произвођачи уз већину компоненти праве и специјалан мали програм који се зове <strong>драјвер</strong>. Драјвер посредује у комуникацији између своје компоненте и осталих програма (пре свега оперативног система). Драјвери са осталим програмима комуницирају на неки стандардан начин, а са својом компонентом онако како је тој компоненти потребно. Тако, захваљујући драјверима остали програми умеју да користе сваког миша, сваки штампач и остале делове рачунара.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Оперативни систем, драјвере и сличне програме који омогућавају да рачунар функционише називамо <strong>системски софтвер</strong>. Када рачунар или телефон има системски софтвер, он је спреман за рад и може да извршава програме које смо ми додали на рачунар или телефон.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Програме које свакодневно користимо за обављање различитих задатака зовемо <strong>кориснички програми</strong> или <strong>кориснички софтвер</strong>. То су програми који нам омогућавају да радимо разне спрецифичне ствари - да уређујемо текстове, слике, звучне и видео записе, да правимо интернет сајтове, да обављамо разне прорачуне и планирања, да правимо нове програме, да правимо презентације, да претражујемо интернет, да читамо, гледамо филмове, слушамо музику и још много тога. Поменимо да су и рачунарске игре такође програми. Корисничне програме можемо по потреби сами да инсталирамо на рачунар.</p>
+<div class="topic">
+<p class="topic-title">Савет</p>
+<div class="line-block">
+<div class="line">☛ За програме које додаш на рачунар, потребно је да редовно инсталираш дораде (енгл. <em>update</em>). Немој да игноришеш обавештења да за програм који користиш постоји новија верзија. У новим верзијама су често отклоњени неки безбедносни пропусти и исправљене друге примећене грешке.</div>
+</div>
+</div>
+<p>Погледај поново слику са почетка лекције. Примети да је не екрану рачунара бројем 11 означен један системски програм (у прозору је приказан садржај меморије рачунара), а бројем 12 један кориснички програм (рачунарска игра).</p>
+<div class="section" id="id4">
+<h3>Софтвер као сервис<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>Као што вероватно знаш, на интернету постоје програми које можемо да користимо, а да их не инсталирамо на свој рачунар или телефон. Довољно је да неким прегледачем веба (као што су <em>Google Chrome</em> или <em>Microsoft Edge</em>) посетимо одговарајућу интернет адресу и програм се извршава у самом прегледачу.</p>
+<p>Таквих програма има много, од оних за уређивање текста и прављење презентација, преко програма за рачуноводство, за учење, за размену порука, до рачунарских игара. На пример, такви програми су Гугл преводилац помоћу којег можеш потражити превод са неког страног језика на српски језик и обрнуто или Скреч, којим ћемо се бавити у другом полугодишту.</p>
+
+    <div class="course-box course-box-special">
+        <div class="course-content">
+            <h4 class="carbox-title">
+                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
+            </h4>
+            <p>
+<p>Да ли користиш неке програме на овај начин? Ако користиш, наброј неке од њих.</p>
+
+    </p></div></div>
+<p>Програме које не инсталирамо на свој дигитални уређај него их користимо преко интернета, зовемо софтвер као услуга, или <strong>софтвер као сервис</strong>. За овакве програме можеш чути назив <strong>онлајн програми</strong>. Сви ти програми су инсталирани на неким удаљеним рачунарима и о постављању новијих верзија програма брине неко други. Неки од тих програма - сервиса су бесплатни за употребу, а за неке се плаћа претплата.</p>
+<p>Програми - сервиси нам често омогућавају да оно што у њима направимо, такође чувамо на удаљеном рачунару (такве удаљене рачунаре називамо рачунарски облак). Да би сваки корисник таквих програма могао да дође до својих података, обично је потребно да се пријави програму својим корисничким именом (или е-адресом), тј. да се <strong>улогује</strong>.</p>
+<div class="topic">
+<p class="topic-title">Савет</p>
+<div class="line-block">
+<div class="line">☛ Да ли рачунар који користиш, осим тебе користе и други? Ако је тако, <strong>важно је да се после употребе рачунара одјавиш</strong> (излогујеш) са свих сервиса које користиш. Такође, треба да се одјавиш и са самог рачунара, као што после часа не остављаш своје ствари на школској клупи. На тај начин не доводиш друге у ситуацију да поспремају за тобом, а уједно ћеш сачувати своје податке од свих који после тебе користе исти рачунар.</div>
+<div class="line">☛ Ако дуже користиш рачунар, <strong>важно је да повремено правиш паузе</strong>, бар неколико мунута на сваких сат времена. Када правиш паузу, не мораш да се одјављујеш са рачунара и сервиса, довољно је да закључаш рачунар. То ћеш најједноставније да урадиш притиском на тастер <em>L</em> (енгл. <em>lock</em> - закључај) док држиш притиснут тастер <strong>⊞</strong> (такозвани виндоуз тастер, у доњем реду тастатуре). По повратку са паузе довољно је да се улогујеш само на рачунар (сви програми су и даље отворени).</div>
+</div>
+</div>
+</div>
+<div class="section" id="id5">
+<h3>Други сервиси<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>Велике софтверске компаније нам поред услуге употребе програма у облаку, често нуде и услугу да на њиховим рачунарима чувамо наше податке било које врсте (нпр. слике, телефонски именик, разне документе). Таквим подацима можемо да приступимо са било ког рачунара, да их делимо са неким ако желимо, а део те услуге је и провера да подаци нису заражени рачунарским вирусима. Чување података у облаку има и ту предност да, уколико наш уређај постане неисправан и више не можемо да читамо податке са њега, подаци у облаку представљају безбедну копију којој и даље можемо да приступимо.</p>
+</div>
+</div>
+<div class="section" id="id6">
+<h2>Представљање података<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p>У рачунару, као и у сваком дигиталном уређају, сви подаци су дигитални. То значи да су подаци представљени низовима симбола. За представљање свих врста података довољна су само два симбола, а обично користимо цифре <strong>0</strong> и <strong>1</strong>. Све што улази у рачунар или излази из њега, свака слика, сваки програм, сваки сајт на интернету, све су само низови нула и јединица.</p>
+<p>На пример, у једном од најчешће коришћених начина за представљање слова (такозвано UTF-8 кодирање), мала ћириличка слова се представљају следећим низовима нула и јединица (размаци су убачени ради лакшег читања):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">а</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0000</span> <span class="mi">1011</span> <span class="mi">0000</span>        <span class="n">ј</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0001</span> <span class="mi">1001</span> <span class="mi">1000</span>        <span class="n">с</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0001</span> <span class="mi">1000</span> <span class="mi">0001</span>
+<span class="n">б</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0000</span> <span class="mi">1011</span> <span class="mi">0001</span>        <span class="n">к</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0000</span> <span class="mi">1011</span> <span class="mi">1010</span>        <span class="n">т</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0001</span> <span class="mi">1000</span> <span class="mi">1101</span>
+<span class="n">в</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0000</span> <span class="mi">1011</span> <span class="mi">0010</span>        <span class="n">л</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0000</span> <span class="mi">1011</span> <span class="mi">1011</span>        <span class="n">ћ</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0001</span> <span class="mi">1001</span> <span class="mi">1011</span>
+<span class="n">г</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0000</span> <span class="mi">1011</span> <span class="mi">0011</span>        <span class="n">љ</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0001</span> <span class="mi">1001</span> <span class="mi">1001</span>        <span class="n">у</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0001</span> <span class="mi">1000</span> <span class="mi">0011</span>
+<span class="n">д</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0000</span> <span class="mi">1011</span> <span class="mi">0100</span>        <span class="n">м</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0000</span> <span class="mi">1011</span> <span class="mi">1100</span>        <span class="n">ф</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0001</span> <span class="mi">1000</span> <span class="mi">0010</span>
+<span class="n">ђ</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0001</span> <span class="mi">1001</span> <span class="mi">0010</span>        <span class="n">н</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0000</span> <span class="mi">1011</span> <span class="mi">1101</span>        <span class="n">х</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0001</span> <span class="mi">1000</span> <span class="mi">0101</span>
+<span class="n">е</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0000</span> <span class="mi">1011</span> <span class="mi">0101</span>        <span class="n">њ</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0001</span> <span class="mi">1001</span> <span class="mi">1010</span>        <span class="n">ц</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0001</span> <span class="mi">1000</span> <span class="mi">0110</span>
+<span class="n">ж</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0000</span> <span class="mi">1011</span> <span class="mi">0110</span>        <span class="n">о</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0000</span> <span class="mi">1011</span> <span class="mi">1110</span>        <span class="n">ч</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0001</span> <span class="mi">1000</span> <span class="mi">0111</span>
+<span class="n">з</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0000</span> <span class="mi">1011</span> <span class="mi">0111</span>        <span class="n">п</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0000</span> <span class="mi">1011</span> <span class="mi">1111</span>        <span class="n">џ</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0001</span> <span class="mi">1001</span> <span class="mi">1111</span>
+<span class="n">и</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0000</span> <span class="mi">1011</span> <span class="mi">1000</span>        <span class="n">р</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0001</span> <span class="mi">1000</span> <span class="mi">0000</span>        <span class="n">ш</span><span class="p">:</span>  <span class="mi">1101</span> <span class="mi">0001</span> <span class="mi">1000</span> <span class="mi">1000</span>
+</pre></div>
+</div>
 
         <div class="course-box course-box-question course-content">
-        <div data-component="fillintheblank" id="L2P1">
-            <p>Колико слика има тачкица по хоризонтали дигиталног уређаја? Унеси одговор.</p>
+        <div data-component="fillintheblank" id="L2P4">
+            <p><strong>Задатак</strong></p>
+<div class="figure align-right">
+<a class="reference internal image-reference" href="../_images/utf_dekodiranje.PNG"><img alt="../_images/utf_dekodiranje.PNG" src="../_images/utf_dekodiranje.PNG" style="width: 440px;" /></a>
+</div>
+<p>Сваки од следећих низова нула и јединица представља по једно слово:</p>
+<div class="line-block">
+<div class="line">1101 0001 1000 1101</div>
+<div class="line">1101 0001 1000 0000</div>
+<div class="line">1101 0000 1011 0000</div>
+<div class="line">1101 0000 1011 0010</div>
+<div class="line">1101 0000 1011 0000</div>
+</div>
+<p>Покушај помоћу слике дате у тексту задатка да откријеш о којим словима се ради. Упиши та слова у поље за одговор.</p>
+<p>Ако ти је тешко да откријеш (декодираш) слова представљена помоћу нула и јединица, ево ти мала помоћ: реч која се добија има пет слова и она је уједно решење ове загонетке: <cite>Ја сам мала зелена, зечићу сам до рамена. Мене газе ноге босе, мене оштром косом косе.</cite></p>
 <p>Одговор: <input type="text"></p>
 
         <script type="application/json">
-            [[{"number": [1024, 1024], "feedback": "<p>\u0422\u0430\u0447\u043d\u043e</p>\n"}, {"regex": "^ *x *$", "regexFlags": "", "feedback": "<p>\u041e\u0434\u0433\u043e\u0432\u043e\u0440 \u043d\u0438\u0458\u0435 \u0442\u0430\u0447\u0430\u043d.</p>\n"}]]
+            [[{"regex": "^ *^\u0442\u0440\u0430\u0432\u0430$ *$", "regexFlags": "", "feedback": "<p>\u0422\u0430\u0447\u043d\u043e</p>\n"}, {"regex": "^ *x *$", "regexFlags": "", "feedback": "<p>\u041e\u0434\u0433\u043e\u0432\u043e\u0440 \u043d\u0438\u0458\u0435 \u0442\u0430\u0447\u0430\u043d.</p>\n"}]]
+        </script>
+
+        </div>
+        </div>
+            <div class="section" id="id7">
+<h3>Представљање слике<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<a class="reference internal image-reference" href="../_images/crno_bela_slika.png"><img alt="../_images/crno_bela_slika.png" class="align-right" src="../_images/crno_bela_slika.png" style="width: 240px;" /></a>
+<p>Као и текст (и све друго), и слике су у рачунару представљене низовима нула и јединица. Рачунар те нуле и јединице уме да протумачи и да на основу њих прикаже слику на екрану. Фотографије које вероватно правиш помоћу телефона или налазиш на инернету, састоје се од мноштва малих тачака које зовемо пиксели. Боја сваког пиксела на екрану представљена је низом нула и јединица. Ако на слици постоје само две боје, за сваки пиксел је довољна само једна нула или јединица. На пример, ако је слика црно-бела, црне пикселе можемо да представимо нулом, а беле јединицом. На тај начин, слика са десне стране може да се представи овако:</p>
+<a class="reference internal image-reference" href="../_images/crno_bela_slika_kodirana.png"><img alt="../_images/crno_bela_slika_kodirana.png" class="align-left" src="../_images/crno_bela_slika_kodirana.png" style="width: 120px;" /></a>
+<div class="line-block">
+<div class="line">1 1 1 1 1 1</div>
+<div class="line">1 0 1 1 0 1</div>
+<div class="line">1 1 1 1 1 1</div>
+<div class="line">1 0 0 0 0 1</div>
+<div class="line">1 1 1 1 1 1</div>
+</div>
+<p>За више боја потребно је само више нула и јединица.</p>
+<p>Приметимо да је ширина ове слике 6 пиксела, а висина 5 пиксела. Краће кажемо да је величина слике 6 пута 5 пиксела (прво се наводи ширина, а затим висина). Према томе, слика се састоји од укупно 30 пиксела.</p>
+
+        <div class="course-box course-box-question course-content">
+        <div data-component="fillintheblank" id="L2P5">
+            <a class="reference internal image-reference" href="../_images/L2S9.png"><img alt="../_images/L2S9.png" class="align-right" src="../_images/L2S9.png" style="width: 200px;" /></a>
+<p>У поље за одговор упиши како би помоћу нула и јединица на претходно описан начин требало представити трећи ред ове слике (означен стрелицом).</p>
+<p>Одговор: <input type="text"></p>
+
+        <script type="application/json">
+            [[{"regex": "^ *^001111100$ *$", "regexFlags": "", "feedback": "<p>\u0422\u0430\u0447\u043d\u043e</p>\n"}, {"regex": "^ *x *$", "regexFlags": "", "feedback": "<p>\u041e\u0434\u0433\u043e\u0432\u043e\u0440 \u043d\u0438\u0458\u0435 \u0442\u0430\u0447\u0430\u043d.</p>\n"}]]
+        </script>
+
+        </div>
+        </div>
+            <p>Ширина слике кућице из задатка је 9 пиксела, а висина 7 пиксела. Према томе, величина слике је 9 x 7 пиксела и слика се састоји од укупно 63 пиксела.</p>
+
+        <div class="course-box course-box-question course-content">
+        <div data-component="fillintheblank" id="L2P1">
+            <p>Ако је величина слике 1024 x 768 пиксела, колико пиксела је широка та слика? Упиши одговор цифрама.</p>
+<p>Одговор: <input type="text"></p>
+
+        <script type="application/json">
+            [[{"regex": "^ *^1024$ *$", "regexFlags": "", "feedback": "<p>\u0422\u0430\u0447\u043d\u043e</p>\n"}, {"regex": "^ *x *$", "regexFlags": "", "feedback": "<p>\u041e\u0434\u0433\u043e\u0432\u043e\u0440 \u043d\u0438\u0458\u0435 \u0442\u0430\u0447\u0430\u043d.</p>\n"}]]
         </script>
 
         </div>
@@ -369,11 +699,11 @@
             
         <div class="course-box course-box-question course-content">
         <div data-component="fillintheblank" id="L2P2">
-            <p>Колико слика има тачкица по вертикали дигиталног уређаја? Унеси одговор.</p>
+            <p>Ако је величина слике 1920 x 1080 пиксела, колико пиксела је висока та слика? Упиши одговор цифрама.</p>
 <p>Одговор: <input type="text"></p>
 
         <script type="application/json">
-            [[{"number": [600, 600], "feedback": "<p>\u0422\u0430\u0447\u043d\u043e</p>\n"}, {"regex": "^ *x *$", "regexFlags": "", "feedback": "<p>\u041e\u0434\u0433\u043e\u0432\u043e\u0440 \u043d\u0438\u0458\u0435 \u0442\u0430\u0447\u0430\u043d.</p>\n"}]]
+            [[{"regex": "^ *^1080$ *$", "regexFlags": "", "feedback": "<p>\u0422\u0430\u0447\u043d\u043e</p>\n"}, {"regex": "^ *x *$", "regexFlags": "", "feedback": "<p>\u041e\u0434\u0433\u043e\u0432\u043e\u0440 \u043d\u0438\u0458\u0435 \u0442\u0430\u0447\u0430\u043d.</p>\n"}]]
         </script>
 
         </div>
@@ -381,109 +711,31 @@
             
         <div class="course-box course-box-question course-content">
         <div data-component="fillintheblank" id="L2P3">
-            <p>Колико је употребљено пиксела за приказивање ове слике? Унеси одговор. <strong>Мала помоћ:</strong> Подсети се како се израчунава површина правоугаоника.</p>
+            <p>Ако је величина слике 800 x 600 пиксела, од колико укупно пиксела се састоји та слика? Упиши одговор цифрама.</p>
 <p>Одговор: <input type="text"></p>
 
         <script type="application/json">
-            [[{"number": [614400, 614400], "feedback": "<p>\u0422\u0430\u0447\u043d\u043e</p>\n"}, {"regex": "^ *x *$", "regexFlags": "", "feedback": "<p>\u041e\u0434\u0433\u043e\u0432\u043e\u0440 \u043d\u0438\u0458\u0435 \u0442\u0430\u0447\u0430\u043d.</p>\n"}]]
+            [[{"regex": "^ *^480000$ *$", "regexFlags": "", "feedback": "<p>\u0422\u0430\u0447\u043d\u043e</p>\n"}, {"regex": "^ *x *$", "regexFlags": "", "feedback": "<p>\u041e\u0434\u0433\u043e\u0432\u043e\u0440 \u043d\u0438\u0458\u0435 \u0442\u0430\u0447\u0430\u043d.</p>\n"}]]
         </script>
 
         </div>
         </div>
-            </div>
-</div>
-<div class="section" id="id4">
-<h2>Начин приказивања података<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
-<p>Да би дигитални уређај могао да „ради” са подацима (слика, текст, број, звук) он користи електричне сигнале „укључено” и „искључено” и зато све податке види као низове бинарних бројева. Бинарни бројевни систем користи само две цифре - 1 и 0. Нула представља „искључен прекидач“, а јединица „укључен прекидач“. Свака слика коју направимо, свако преузимање са интернета, сваки дигитални снимак, свака веб страница представља само пуно битова. Ове бинарне цифре су оно што дигиталну технологију чини дигиталном! Осам битова чини бајт.</p>
-</div>
-<div class="section" id="id5">
-<h2>Репрезентација текста<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
-<p>Притиском на било који тастер на тастатури, унети карактер се претвара у бинарни број како би рачунар могао да га обради. На екрану ће бити приказан знак који је унет са тастатуре.</p>
-<div class="section" id="id6">
-<h3>Задатак 2:<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
-
-        <div class="course-box course-box-question course-content">
-        <div data-component="fillintheblank" id="L2P4">
-            <p>Пред тобом се налази решење 01010100 01110010 01100001 01110110 01100001 загонетке „Ја сам мала зелена, зечићу сам до рамена. Мене газе ноге босе, мене оштром косом косе.” представљено у облику који рачунар разуме. Та реч је приказана преко бинарних бројева.
-Унеси решење малим ћириличким писмом.</p>
-<p>Одговор: <input type="text"></p>
-
-        <script type="application/json">
-            [[{"regex": "^ *\u0442\u0440\u0430\u0432\u0430 *$", "regexFlags": "", "feedback": "<p>\u0422\u0430\u0447\u043d\u043e</p>\n"}, {"regex": "^ *x *$", "regexFlags": "", "feedback": "<p>\u041e\u0434\u0433\u043e\u0432\u043e\u0440 \u043d\u0438\u0458\u0435 \u0442\u0430\u0447\u0430\u043d.</p>\n"}]]
-        </script>
-
-        </div>
-        </div>
-            <p>Мала помоћ. Користи табелу за превођење текста у облик који људи разумеју:</p>
-<a class="reference internal image-reference" href="Час 1.2. Хардвер, софтвер и сервиси/../../_images/L2S6.png"><img alt="Час 1.2. Хардвер, софтвер и сервиси/../../_images/L2S6.png" class="align-center" src="Час 1.2. Хардвер, софтвер и сервиси/../../_images/L2S6.png" style="width: 600px;" /></a>
-</div>
-</div>
-<div class="section" id="id7">
-<h2>Репрезентација слике<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
-<p>Као и текст, и слике морају да буду преведене у бинарне бројеве како би рачунар могао да их обрађује. Када их рачунар обради, на екрану корисник може да види дату слику. Као што смо већ приказали, дигиталне слике се састоје од пиксела. Сваки пиксел на слици представљен је бинарним бројевима. Ако кажемо да је 1 црна (или укључена), а 0 бела (или искључена), једноставна црно-бела слика може се креитати помоћу бинарне слике. Таква слика је представљена као мрежа пиксела, где се сваки ред пиксела преводи у бинарни број, у зависности од боје и положаја пиксела у мрежи.
-Погледај пример једне црно–беле слике, и њену бинарну репрезентацију. На доњој слици је приказан начин чувања црно-беле слике.</p>
-<a class="reference internal image-reference" href="Час 1.2. Хардвер, софтвер и сервиси/../../_images/L2S7.png"><img alt="Час 1.2. Хардвер, софтвер и сервиси/../../_images/L2S7.png" class="align-center" src="Час 1.2. Хардвер, софтвер и сервиси/../../_images/L2S7.png" style="width: 600px;" /></a>
-<p>У тренутку када се приказује резултат, дигитални уређај претвара бинарни запис слике, текста или звука у облик који је људима разумљив.</p>
-<div class="section" id="id8">
-<h3>Задатак 3:<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
-<p>Представите црно белу слику онако како је разуме рачунар, коришћењем бинарних бројева.</p>
-<a class="reference internal image-reference" href="Час 1.2. Хардвер, софтвер и сервиси/../../_images/L2S9.png"><img alt="Час 1.2. Хардвер, софтвер и сервиси/../../_images/L2S9.png" class="align-center" src="Час 1.2. Хардвер, софтвер и сервиси/../../_images/L2S9.png" style="width: 300px;" /></a>
-<p>На слици су приказане две репрезентације горње слике:</p>
-<a class="reference internal image-reference" href="Час 1.2. Хардвер, софтвер и сервиси/../../_images/L2S15.png"><img alt="Час 1.2. Хардвер, софтвер и сервиси/../../_images/L2S15.png" class="align-center" src="Час 1.2. Хардвер, софтвер и сервиси/../../_images/L2S15.png" style="width: 600px;" /></a>
-
-        <div class="course-box course-box-question course-content">
-        <div data-component="fillintheblank" id="L2P5">
-            <p>Унеси редни број слике која представља праву репрезентацију горње слике.</p>
-<p>Одговор: <input type="text"></p>
-
-        <script type="application/json">
-            [[{"number": [1, 1], "feedback": "<p>\u0422\u0430\u0447\u043d\u043e</p>\n"}, {"regex": "^ *x *$", "regexFlags": "", "feedback": "<p>\u041e\u0434\u0433\u043e\u0432\u043e\u0440 \u043d\u0438\u0458\u0435 \u0442\u0430\u0447\u0430\u043d.</p>\n"}]]
-        </script>
-
-        </div>
-        </div>
-            </div>
-</div>
-<div class="section" id="id9">
-<h2>Репрезентација звука<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
-<p>Као и текст и слику, звук треба претворити у бинарни систем да би га могли обрадити. Да бисте то учинили, звук се хвата - обично микрофоном - и затим претвара у дигитални сигнал.</p>
-</div>
-<div class="section" id="id10">
-<h2>Софтвер<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
-<p>Рекли смо да реч хардвер у буквалном преводу значи гомила гвожђурије. Да би та гомила радила на правилан начин и да би смо искористили сву њену снагу неопходан је софтвер (енгл. software). Реч софтвер означава све оно што објашњава хардверу како да уради оно што се од њега очекује. Софтвер су пре свега програми, тј. скупови наредби које рачунар извршава да би обавио одређени посао. Са софтвером се срећемо сваки дан било на паметном урећају или рачунару у школи или код куће. Мајнкрафт, Клеш Ројал, ЛОЛ, Кантер, Виндоуз, андроид, ИОС све су то софтвери.
-Када су у питању мобилни уређаји (телефони и таблети) програме зовемо апликацијама (Apps).</p>
-<p>Програми се деле на системске и апликативне.</p>
-<p><strong>Системски програми</strong> контролишу рад самог дигиталног уређаја. У системске програме спадају: оперативни систем (Windows, Linux, Android, iOS,…) и драјвери. Оперативни систем је програм који препознаје, повезује и управља радом свих физичких делова дигиталног уређаја (хардвера). За повезивање додатних компоненти (џојстик, волан,…) неопходан је одговарајући драјвер. Драјвери су програми који омогућавају оперативном систему да на правилан начин користи постојеће или нове делове хардвера.</p>
-<p><strong>Апликативни програми</strong> омогућавају практичну примену дигиталног уређаја - то су они програми који ти посао на дигиталном уређају чине лакшим и интересантнијим: програми за обраду текста, слике, за разноврсне прорачуне,  забаву….</p>
-<p>Да би рачунар радио правилно неопходна је синергија (јединство) свих његових компоненти: хардвера, драјвера (малих али неопходних упутстава оперативном систему), оперативног система и апликативног програма (свих оних дивних програма који нам живот чине лакшим и интересантнијим).</p>
-</div>
-<div class="section" id="id11">
-<h2>Сервиси<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h2>
-<p>У данашње време, дигитални уређаји су превазишли оквире софтвера и хардвера.
-Напредак технологије је омогућио да приступимо омиљеним садржајима и ако их немамо на рачунару, па чак и ако немамо рачунар. Колико пута до сада сте играли игрице на интернету? За играње таквих игрица није било потребно да буде инсталирана на рачунару, већ је био само потребан рачунар и веза ка интернету. Исто се односи на куцање текста или израде презентација. Телевизор више није уређај који само приказује ТВ програм. Чак и преко телевизора можемо да приступимо омиљеним видео спотовима или да погледамо омиљену серију коју смо пропустили, могуће је комуницирати са другима, исл. Све те могућности имамо захваљујућу напретку технологије и њих једним именом називамо сервиси (услуге).
-Захваљујући сервисима, постало је могуће дељење, чување и приступ документима са било ког места и у било које време.</p>
-<p><strong>Рад у облаку података</strong> је сервис који подразумева сараднички рад и чување података на удаљеним рачунарима, уместо на личном дигиталном уређају.
-Компаније које обезбеђују сервисе често их унапређују. Сервисима приступамо коришћењем свог налога, који садржи податке као што су име, презиме, државу,… и најчешће је везан за адресу електронске поште.</p>
-</div>
-<div class="section" id="id12">
-<h2>Правилно коришћење дигиталних уређаја<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h2>
-<p>За рад дигиталних уређаја неопходна је струја. Када је уређај укључен, сваки додир са водом, као добрим проводником струје, могао би да изазове квар. Зато је јако важно да да поред дигиталног уређаја не остављамо чашу са водом или слатким пићем. Поред тога јако је важно да се редовно, бар једном годишње рачунар носи у сервис на детаљно чишћење, јер често прашина утиче на престанак рада појединих компоненти.</p>
-<p>Поред прашине, вишесатно коришћење дигиталних уређаја може довести до престанка рада уређаја. Зато је добро да да након сат времена коришћења дигиталног уређаја се направи пауза.</p>
-<p>Сасвим је природно да, након извесног времена, старе дигиталне уређаје заменимо новим. Електронски отпад спада у опасан отпад јер садржи отровне хемијске супстанце. Јако је важно да старе дигиталне уређаје никада не бацамо заједно са осталим отпадом. За одлагање електронског отпада постоје специјалне комуналне службе.</p>
-<p>Да би уређаји правилно радили важно је надограђивати (ажурирати) програме на дигиталном уређају.</p>
+            <p>💡 Можда си имао/имала прилике да чујеш да је резолуција неке камере на пример 2240 x 1680 пиксела. То значи да камера може да забележи слику величине 2240 x 1680 пиксела.</p>
+<p>💡 Слично томе, ако је резолуција неког екрана за мобилни телефон 1440 x 2560 пиксела, значи да екран може да прикаже слику те величине без губитка квалитета (сваки пиксел слике се приказује).</p>
 
     <div class="course-box course-box-info">
         <div class="course-content">
             <p>
 <dl class="simple">
 <dt><strong>Шта смо научили?</strong></dt><dd><ul class="simple">
-<li><p>да хардвер представља физичке делове (компоненте) рачунара или дигиталних уређаја;</p></li>
-<li><p>да софтвер објашњава хардверу како да уради оно што се од њега очекује;</p></li>
-<li><p>да је оперативни систем програм који препознаје, повезује и управља радом свих физичких делова дигиталног уређаја;</p></li>
-<li><p>да је драјвер програм који објашњава оперативном систему како да на правилан начин користи неки од постојећих или нови део хардвера;</p></li>
-<li><p>да интернет представља скуп умрежених рачунара;</p></li>
-<li><p>да сервиси представљају скуп услуга на интернету, помоћу којих је могуће чување и приступ документима са било ког места и у било које време;</p></li>
-<li><p>да је рачунарски облак сервис који подразумева смештање твојих података и информација на удаљене рачунаре, уместо на сопствене дигиталне уређаје.</p></li>
+<li><p>физичке делове (компоненте) рачунара или дигиталних уређаја зовемо хардвер;</p></li>
+<li><p>програме који се извршавају на рачунару (и говоре му како да нешто уради) зовемо софтвер;</p></li>
+<li><p>оперативни систем је главни програм на рачунару или телефону, који омогућава функционисање рачунара и извршавање других програма;</p></li>
+<li><p>драјвер је програм који помаже (посредује) оперативном систему при коришћењу појединих делова рачунара (компоненти рачунарског система);</p></li>
+<li><p>сервиси представљају скуп услуга на интернету, као што је коришћење програма из рачунарског облака и чување података у облаку;</p></li>
+<li><p>правилна употреба рачунара подразумева пажљиво руковање, инсталирање дорада програма, прављење пауза током рада и одјављивање по завршетку рада.</p></li>
+<li><p>величина слике се изражава у пикселима по ширини и висини;</p></li>
+<li><p>резолуција камере, екрана, пројектора и других уређаја показује колику слику ти уређаји могу да сниме или прикажу;</p></li>
 </ul>
 </dd>
 </dl>
@@ -492,60 +744,47 @@
 <a class="reference internal image-reference" href="../_images/L2S8.png"><img alt="../_images/L2S8.png" class="align-center" src="../_images/L2S8.png" style="width: 800px;" /></a>
 </div>
 </div>
+</div>
 
 
-  
-      <div class="col-md-12">
-<ul class="pager">
-    <li id="relations-prev" title='Previous chapter - Час 1.2. Хардвер, софтвер и сервиси' data-toggle="tooltip"><a href="index.html"><i class="fas fa-arrow-left"></i></a></li>
+    </div>
     
-        <li id="relations-next" title='Next chapter - Квиз. Хардвер, софтвер и сервиси' data-toggle="tooltip"><a href="Тест_2_Хардвер_софтвер_и_сервиси.html"><i class="fas fa-arrow-right"></i></a></li>
-</ul>
-
-<!-- <ul class="pager"> -->
-    <!-- -->
-        <!-- <li id="relations-prev" title='Претходно поглавље - Час 1.2. Хардвер, софтвер и сервиси' data-toggle="tooltip"><a href="index.html">Претходно поглавље</a></li> -->
-    <!--  -->
-    <!-- -->
-        <!-- <li id="relations-next" title='Следеће поглавље - Квиз. Хардвер, софтвер и сервиси' data-toggle="tooltip"><a href="Тест_2_Хардвер_софтвер_и_сервиси.html">Следеће поглавље</a></li> -->
-    <!-- -->
-<!-- </ul> -->
+    <div>
+<div class="lecture-prev-next-toggle">
+  <a  href="index.html" id="prevLectureLink" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i> <span> Претходна лекција </span> </a>
+  
+  <a id="nextLectureLink" class="lecture-toggler-arrows"><span> Следећа лекција</span>  <i class="fas fa-arrow-right fa"></i> </a>
+</div>
 
 <script type="text/javascript">
-
   $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
   $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
-
 </script>
 </div>
-  
+
+    
+  </div>
 </div>
-<footer class="footer col-md-12">
-    <div class="container">
-        <div class="text-center">
-            <hr>
-            <p class="text-muted">
-                <span class="pull-left">&copy; 2019 Petlja (Created using  <a href="https://pypi.org/project/Sphinx/">Swinx</a>, <a href="http://runestoneinteractive.org/">RunestoneComponents</a> and <a href="https://github.com/Petlja/PetljaDoc">PetljaDoc</a>)</span>
-            </p>
-        </div>
-    </div>
-</footer>
+
+<div class="petljadoc-resources">
+  <span class="pull-left">(Created using  <a href="https://pypi.org/project/Sphinx/">Swinx</a>, <a href="http://runestoneinteractive.org/">RunestoneComponents</a> and <a href="https://github.com/Petlja/PetljaDoc">PetljaDoc</a>) <br> © 2022 Petlja</span>
+</div>
 
 
+<div class="lectureToolbox">
 
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-32029811-1']);
-  _gaq.push(['_trackPageview']);
+  <label class="font-size-toggle" id="fontSizeToggle">
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+      <i class="fas fa-font"></i><label>Слова</label>
+  </label>
+  <div class="font-change d-none" id="fontChangeModal">
+      <span class="dec-letter-icon" id="decLetterIcon">A-</span>
+      <label id="currentFontSize">16</label>
+      <span class="inc-letter-icon" id="incLetterIcon">A+</span>
+  </div>
+</div>
 
-
+</div>
 
   </body>
 </html>
