@@ -6,6 +6,7 @@
     <title>Заштита приватности личних података и ауторска права</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
     <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
@@ -108,6 +109,7 @@
     <script type="text/javascript" src="../_static/karelCorner.js"></script>
     <script type="text/javascript" src="../_static/karelRobot.js"></script>
     <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelChat.js"></script>
     <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
     <script type="text/javascript" src="../_static/karelUI.js"></script>
     <script type="text/javascript" src="../_static/karel.js"></script>
@@ -413,7 +415,7 @@
         <div class="note-icon-holder"> </div>
         <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <dl class="simple">
 <dt>У овој лекцији ћеш научити:</dt><dd><ul class="simple">
 <li><p>који је поступак за заштиту личних података и приватности на интернету;</p></li>
@@ -423,17 +425,17 @@
 </dd>
 </dl>
 
-    </p></div></div>
+    </div></div>
 <p>Да би корист неку услугу на интернету често ће се од тебе тражити да унесеш неке од својих <strong>личних података</strong> (име, презиме, адресу, адресу електронске поште, број телефона…). Када оставиш своје личне податке на интернету, не можеш бити сигуран ко ће све имати приступ њима и како ће их користити. Због тога је веома важно да водиш рачуна о <strong>заштити својих личних података</strong>.</p>
 
     <div class="note-wrapper infonote-type">
         <div class="note-icon-holder"> </div>
         <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p><strong>Свако има право на заштиту личних података а то право му гарантије Закон.</strong></p>
 
-    </p></div></div>
+    </div></div>
 <p>Република Србија је усвојила <strong>Закон о заштити података о личности</strong> 2008. године са циљем да се у вези са обрадом података о личности сваком физичком лицу обезбеди остваривање и заштита права на приватност и осталих права и слобода.</p>
 <p>Најчешће <strong>жртве злоупотребе личних података</strong> су појединци, корисници интернета. Можда сте приметили да, када претражујете нешто на интернету, неки производ који желите да купите или неку дестинацију на коју желите да путујете, након тога почну да вам се појављују рекламе управо за тај производ или ту дестинацију.</p>
 <p>Док претражујеш интернет, многи претраживачи чувају податке о твом претраживању и на тај начин <strong>креирају твој профил</strong>, која су твоја интересовања, посао, хобији и слично. Ти подаци се могу продати другима, на пример компанијама који се баве рекламирањем производа. Неки претраживачи чувају податке попут посећених веб-места и време проведено у претрази извесно време, нпр. Гугл их чува 90 дана.</p>
@@ -443,7 +445,7 @@
 <p>Већина материјала који се налази на иснтернету је заштићено <strong>ауторским правом</strong>. Шта то значи?</p>
 <p><strong>Материјали који се налазе на интернету имају своје ауторе</strong> (особу или особе које су их креирале) и ти материјали представљају ауторска дела – оригиналне творевине аутора које су једнинствене. <strong>Носилац ауторског права је сам аутор</strong>. То што одређеном садржају на интернету можеш слободно да приступиш не значи да он не подлеже ауторским правима.</p>
 <p>Власник ауторског дела може <strong>заштитити свој</strong> рад тако што га означава посебном лиценцом (дозволом за коришћење) означеном са Copyright© (Ауторско право) година, назив фирме, установе или организације након чега стоји All rights reserved (Сва права задржана). Симбол копирајта често се налази у запису на дну странице. Наведени текст показује намеру власника да заштити садржаје свог дела на интернету. Да би се избегли проблеми коришћења <strong>заштићеног материјала</strong>, препорука је да прочиташ страну на веб-локацији која се бави условима и начином коришћења материјала. Можда ту пише да се дозвољава преузимање и копирање дела за лично и некомерцијално коришћење.</p>
-<a class="reference internal image-reference" href="../_images/copyright.jpg"><img alt="../_images/copyright.jpg" class="align-right" src="../_images/copyright.jpg" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/copyright.png"><img alt="../_images/copyright.png" class="align-center" src="../_images/copyright.png" style="width: 780px;" /></a>
 <dl class="simple">
 <dt>Дела која се могу пронаћи на интернету, а могу бити предмет заштите ауторских права су:</dt><dd><ul class="simple">
 <li><p>књижевна дела;</p></li>
@@ -460,8 +462,7 @@
 <p>Аутор може заштитити свој рад и омогућити коришћење свог дела уз услове које сам изабере, користећи посебну врсту дозволе (лиценце) -енгл. <strong>Creative Commons License</strong> – срп. <strong>стваралачка јавна дозвола</strong>. Као последица тога на интернету постоји много материјала који се може слободно преузети и на њему се могу испробати креативне могућности прилагођавајући га својим потребама. Оно што је потребно да знате јесте да када се нађете на веб-страници са садржајима које тражите и желите да користите, потребно је да погледате да ли негде пише под којим условима се тај материјал може користити.</p>
 <a class="reference internal image-reference" href="../_images/creative-commons.png"><img alt="../_images/creative-commons.png" class="align-center" src="../_images/creative-commons.png" style="width: 500px;" /></a>
 <p>Непрофитна организација <strong>Creative Commons</strong> (<a class="reference external" href="http://creativecommons.org">http://creativecommons.org</a>) омогућила је дефинисање правила којима се назначавају права која аутори желе да препусте другима.
-На основу нове ознаке <strong>CC</strong> (енгл. Creative Commons), исказ <em>Сва права задржана</em> преводи се у <em>Нека права задржана</em>. Користећи ову иницијативу, група аутора који су спремни да своја дела ставе на располагање другима постаје из дана у дан све бројнија.
-Услове под којим се та дела могу користити они сами одређују користећи разне варијанте исказа CC које прецизније одређују која од „неких права” су задржана.</p>
+На основу нове ознаке <strong>CC</strong> (енгл. Creative Commons), исказ <em>Сва права задржана</em> преводи се у <em>Нека права задржана</em>. Користећи ову иницијативу, група аутора који су спремни да своја дела ставе на располагање другима постаје из дана у дан све бројнија. Услове под којим се та дела могу користити они сами одређују користећи разне варијанте исказа CC које прецизније одређују која од „неких права” су задржана.</p>
 <p>Права која су задржана означена су одговарајућим симболима и кратким пратећим текстовима.
 И сајт Петље користи ове лиценце. Погледај пример: <a class="reference external" href="https://petlja.org/biblioteka/r/kursevi/microbitprojektna">https://petlja.org/biblioteka/r/kursevi/microbitprojektna</a> где је наглашено „Програмирање микробит уређаја у Микропајтону – приручник за пројектну наставу за седми и осми разред издао је British Council под лиценцом Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.”</p>
 <p>Погледајте у кратком видео запису објашњење како можете да приступите сајту Creative Commons и упознате се са симболима и њиховим значењима.</p>
