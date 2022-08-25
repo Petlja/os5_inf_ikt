@@ -8,6 +8,6 @@
 
 .. gallery:: prezentacija
     :folder: ../../_images
-    :images: zav1.png, zav2.png, zav3.png, zav4.png, zav5.png
-    :width: 720
+    :images: zav1.png, zav3.png, zav4.png, zav5.png
+    :width: 780
     :height:

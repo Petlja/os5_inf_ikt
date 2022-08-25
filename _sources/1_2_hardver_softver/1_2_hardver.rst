@@ -52,7 +52,7 @@
 
 
 
-.. image:: ../../_images/Hardver.png
+.. image:: ../../_images/Hardver2.png
     :width: 780px
     :align: center
 

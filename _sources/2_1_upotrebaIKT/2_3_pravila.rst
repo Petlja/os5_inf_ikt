@@ -12,7 +12,9 @@
    .. gallery:: netikecija
       :folder: ../../_images
       :images: sah.png, fudbal.png, basket.png, koncert.png, semafor.png, znak.png
-
+      :width: 780px
+      :height:
+      
 Правила пристојног понашања на интернету су такође део **бонтона**. Често се ова правила називају нетикет (**netiquette**).
 
 .. infonote::  Пажљиво прочитај следеће препоруке и правила понашања на интернету.
