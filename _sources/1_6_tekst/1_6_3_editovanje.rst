@@ -22,8 +22,9 @@
 Покретањем програма MS Word добијаш празан лист за унос садржаја. Уколико је текст који уносиш дужи од једне стране, аутоматски ће се додавати нове стране.
 
 .. figure:: ../../_images/word1.png
-    :width: 720px
+    :width: 780px
     :align: center
+    :class: screenshot-shadow
 
     1 -- основне картице за рад у програму,
     2 -- алатке изабране картице,
@@ -45,8 +46,9 @@
 
 .. questionnote::
 
+    Са следећег `линка <https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/OnlineNastava/5_razred_IKT_DigitalnaPismenost/mali_princ2.docx>`_ преузми Word документ са текстом.
     
-    Са следећег линка преузми Word документ са текстом. На том тексту ћеш испробати основне функције овог програма. 
+    На том тексту ћеш испробати основне функције овог програма. 
 
 Пре него што примениш едитовање или форматирање, мораш да изабереш на који део текста се то односи. То ћеш урадити тако што ћеш означити (каже се и одабрати, а најчешће селектовати) текст који желиш, а онда применити акцију едитовања или форматирања.
 
@@ -86,9 +88,10 @@
 
 Приликом форматирања текста можемо унапред одабрати све параметре, након тога они ће бити примењени на текст који уносимо или можемо селектовати већ откуцан текст, а затим на селектовани део применити жељене промене.
 
-.. image:: ../../_images/word1.png
-    :width: 600px
+.. figure:: ../../_images/word1.png
+    :width: 780px
     :align: center
+    :class: screenshot-shadow
 
 Честе акције форматирања су:
     1.	Избор типа фонта.
@@ -100,20 +103,22 @@
 
     Уреди текст који си преузео на следећи начин:
     
-    .. image:: ../../_images/word_zadatak1.png
-        :width: 600px
+    .. figure:: ../../_images/word_zadatak1.png
+        :width: 780px
         :align: center
-    
+        :class: screenshot-shadow
+
     Употребљени фонт је Candara, а величина 16.
 
 .. questionnote::
 
     Прекуцај следећи текст и уреди га како је приказано (фонт можеш изабрати по жељи, приказани је Cambria):
     
-    .. image:: ../../_images/word_zadatak2.png
-        :width: 600px
+    .. figure:: ../../_images/word_zadatak2.png
+        :width: 780px
         :align: center
-    
+        :class: screenshot-shadow
+
 Уређивање пасуса
 ----------------
 
@@ -123,7 +128,7 @@
 
 Основне акције форматирања параграфа су:
 
-.. image:: ../../_images/word3.png
+.. figure:: ../../_images/word3.png
     :width: 600px
     :align: center
 
@@ -166,7 +171,7 @@
 
     Прекуцајте следећи текст и употребите листе са набрајањем.
 
-    .. image:: ../../_images/word4.png
+    .. figure:: ../../_images/word4.png
         :width: 600px
         :align: center
 
@@ -174,6 +179,6 @@
 
     Откуцај следећи текст и форматирај како је приказано (укључи опцију ¶).
 
-    .. image:: ../../_images/word5.png
+    .. figure:: ../../_images/word5.png
         :width: 600px
         :align: center

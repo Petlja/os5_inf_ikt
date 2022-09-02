@@ -9,46 +9,50 @@
     • форматирања текста.
 
 
-Задатак 1.
-~~~~~~~~~~
+.. questionnote:: 
 
-Покрени програм за обраду текста и откуцај следећи текст.
+    **Задатак 1.**
 
-.. image:: ../../_images/L7S43.png
-    :width: 800px
-    :align: center
+    Покрени програм за обраду текста и откуцај следећи текст.
 
-Форматирај га да изгледа овако:
+        .. image:: ../../_images/L7S43.png
+            :width: 800px
+            :align: center
 
-.. image:: ../../_images/L7S45.png
-    :width: 800px
-    :align: center
+        Форматирај га да изгледа овако:
 
-Сачувај документ у фасцикли Documents, под именом MaliPrinc.docx.
+        .. image:: ../../_images/L7S45.png
+            :width: 800px
+            :align: center
 
-Решење овог задатка можеш да погледаш на следећем видеу:
+        Сачувај документ у фасцикли Documents, под именом MaliPrinc.docx.
 
-.. ytpopup:: lY9sukkgTvY
-    :width: 735
-    :height: 415
-    :align: center
+        Решење овог задатка можеш да погледаш на следећем видеу:
 
-Задатак 2.
-~~~~~~~~~~
+        .. ytpopup:: lY9sukkgTvY
+            :width: 735
+            :height: 415
+            :align: center
 
-Преузми слику са следећег `линка <../../piplfoks.jpg>`_.
 
-Откуцај текст како је приказано и додај преузету слику.
+.. questionnote:: 
 
-.. image:: ../../_images/word_zadatak3.png
-    :width: 400px
-    :align: center
+    **Задатак 2.**
 
-Задатак 3.
-~~~~~~~~~~
+    Преузми слику са следећег `линка <https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/OnlineNastava/5_razred_IKT_DigitalnaPismenost-new/piplfoks.jpg>`_.
 
-Откуцај следећи текст онако како је приказано на слици.
+    Откуцај текст како је приказано и додај преузету слику.
 
-.. image:: ../../_images/word_zadatak4.png
-    :width: 400px
-    :align: center
+    .. image:: ../../_images/word_zadatak3.png
+            :width: 400px
+            :align: center
+
+.. questionnote:: 
+
+    **Задатак 3.**
+
+    Откуцај следећи текст онако како је приказано на слици.
+
+    .. image:: ../../_images/word_zadatak4.png
+            :width: 400px
+            :align: center

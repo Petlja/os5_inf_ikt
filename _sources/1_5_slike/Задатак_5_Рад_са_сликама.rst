@@ -11,71 +11,78 @@
     •	одсецања делова слике;
     •	чувања модификоване дигиталне слике.
  
+.. questionnote:: 
 
-Задатак 1.
-~~~~~~~~~~
-
-Преузми слику са `линка <../../_images/Slika3.jpg>`_ и отвори је у програму Gimp 2. Промени величину слике тако да буде 400 пиксела широка. Сачувајте слику.
-
-.. fillintheblank:: L5P1
-
-    Колика је висина слике ако је ланчић повезан (одговор упиши цифрама)?
-
-    Одговор: |blank|
-
-    - :^533$: Тачно
-      :x: Одговор није тачан.
+    **Задатак 1.**
 
 
-.. fillintheblank:: L5P2
+    Преузми слику са `линка <https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/OnlineNastava/5_razred_IKT_DigitalnaPismenost/Slika3.jpg>`_ и отвори је у програму Gimp 2. Промени величину слике тако да буде 400 пиксела широка. Сачувајте слику.
 
-    Колика је висина слике ако је ланчић раскинут (одговор упиши цифрама)?
+    .. fillintheblank:: L5P1
 
-    Одговор: |blank|
+        Колика је висина слике ако је ланчић повезан (одговор упиши цифрама)?
 
-    - :^3648$: Тачно
-      :x: Одговор није тачан.
+        Одговор: |blank|
+
+        - :^533$: Тачно
+        :x: Одговор није тачан.
 
 
-Решење овог задатка можеш да погледаш на следећем видеу:
+    .. fillintheblank:: L5P2
 
-.. ytpopup:: Fo1ck7dkI2I
-    :width: 735
-    :height: 415
-    :align: center
+        Колика је висина слике ако је ланчић раскинут (одговор упиши цифрама)?
 
-Задатак 2.
-~~~~~~~~~~
+        Одговор: |blank|
 
-Преузми слику са `овог линка <../../_images/SlikaV1.jpg>`_  и отвори је у програму Gimp 2. Ротираj слику за 90 степени у смеру супротном од смера кретања казаљке на сату. Сачувај слику.
+        - :^3648$: Тачно
+        :x: Одговор није тачан.
 
-Решење овог задатка можеш да погледаш на следећем видеу:
 
-.. ytpopup:: L1LtnfBN5Kk
-    :width: 735
-    :height: 415
-    :align: center
+    Решење овог задатка можеш да погледаш на следећем видеу:
 
-Задатак 3.
-~~~~~~~~~~
+    .. ytpopup:: Fo1ck7dkI2I
+        :width: 735
+        :height: 415
+        :align: center
 
-Преузми слику са `овог линка <../../_images/SlikaV1.jpg>`_ и отвори је у програму Gimp 2. Ротирај слику по вертикали. Сачувај слику.
+.. questionnote:: 
 
-Решење овог задатка можеш да погледаш на следећем видеу:
+    **Задатак 2.**
 
-.. ytpopup:: VU1kGh-660M
-    :width: 735
-    :height: 415
-    :align: center
 
-Задатак 4.
-~~~~~~~~~~
+    Преузми слику са `овог линка <https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/OnlineNastava/5_razred_IKT_DigitalnaPismenost/SlikaV1.jpg>`_  и отвори је у програму Gimp 2. Ротираj слику за 90 степени у смеру супротном од смера кретања казаљке на сату. Сачувај слику.
 
-Преузми слику `са линка <../../_images/Slika5.jpg>`_ и отвори је у програму Gimp 2. Са слике одсеци споменик. Сачувај слику.
+    Решење овог задатка можеш да погледаш на следећем видеу:
 
-Решење овог задатка можеш да погледаш на следећем видеу:
+    .. ytpopup:: L1LtnfBN5Kk
+        :width: 735
+        :height: 415
+        :align: center
 
-.. ytpopup:: 9cL3sGqfCM8
-    :width: 735
-    :height: 415
-    :align: center
+.. questionnote::
+    
+    **Задатак 3.**
+
+
+    Преузми слику са `овог линка <https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/OnlineNastava/5_razred_IKT_DigitalnaPismenost/SlikaV1.jpg>`_ и отвори је у програму Gimp 2. Ротирај слику по вертикали. Сачувај слику.
+
+    Решење овог задатка можеш да погледаш на следећем видеу:
+
+    .. ytpopup:: VU1kGh-660M
+        :width: 735
+        :height: 415
+        :align: center
+
+.. questionnote:: 
+
+    **Задатак 4.**
+
+
+    Преузми слику `са линка <https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/OnlineNastava/5_razred_IKT_DigitalnaPismenost/Slika5.jpg>`_ и отвори је у програму Gimp 2. Са слике одсеци споменик. Сачувај слику.
+
+    Решење овог задатка можеш да погледаш на следећем видеу:
+
+    .. ytpopup:: 9cL3sGqfCM8
+        :width: 735
+        :height: 415
+        :align: center

@@ -8,39 +8,41 @@
     •	копирања фасцикли и датотека,
     •	премештање фасцикли и датотека.
 
+.. questionnote:: 
 
-Задатак 1.
-~~~~~~~~~~
+    **Задатак 1.**
 
-У системској фасцикли **Documents (Документи)**, креирај фасциклу **Moj kraj** и у њој још пет фасцикли: **Slike**, **Tekst**, **Zvuk**, **Video** и **Prezentacije**.
+    У системској фасцикли **Documents (Документи)**, креирај фасциклу **Moj kraj** и у њој још пет фасцикли: **Slike**, **Tekst**, **Zvuk**, **Video** и **Prezentacije**.
 
-Решење овог задатка можеш да погледаш на следећем видеу:
+    Решење овог задатка можеш да погледаш на следећем видеу:
 
-.. ytpopup:: Dn4nvGmprl4
-    :width: 735
-    :height: 415
-    :align: center
+    .. ytpopup:: Dn4nvGmprl4
+        :width: 735
+        :height: 415
+        :align: center
 
-Задатак 2.
-~~~~~~~~~~
+.. questionnote:: 
 
-Назив фасцикле **Moj kraj** промени у **Moj kraj -- Kragujevac**.
+    **Задатак 2.**
 
-Решење овог задатка можеш да погледаш на следећем видеу:
+    Назив фасцикле **Moj kraj** промени у **Moj kraj -- Kragujevac**.
 
-.. ytpopup:: SVac19V6M-A
-    :width: 735
-    :height: 415
-    :align: center
+    Решење овог задатка можеш да погледаш на следећем видеу:
 
-Задатак 3.
-~~~~~~~~~~
+    .. ytpopup:: SVac19V6M-A
+        :width: 735
+        :height: 415
+        :align: center
 
-У фасцикли **Slike** направи две фасцикле: **Materijal** и **Radni materijali**. Креиране фасцикле копирај у фасцикле **Tekst**, **Zvuk**, **Video** и **Prezentacije**.
+.. questionnote:: 
 
-Решење овог задатка можеш да погледаш на следећем видеу:
+    **Задатак 3.**
 
-.. ytpopup:: wFpBoh2_oNU
-    :width: 735
-    :height: 415
-    :align: center
+    У фасцикли **Slike** направи две фасцикле: **Materijal** и **Radni materijali**. Креиране фасцикле копирај у фасцикле **Tekst**, **Zvuk**, **Video** и **Prezentacije**.
+
+    Решење овог задатка можеш да погледаш на следећем видеу:
+
+    .. ytpopup:: wFpBoh2_oNU
+        :width: 735
+        :height: 415
+        :align: center
