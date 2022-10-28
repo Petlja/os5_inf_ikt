@@ -43,7 +43,6 @@
 .. quizq::
 
     .. mchoice:: Претраживачи
-        :multiple_answers:
         :answer_a: Тачно
         :answer_b: Нетачно
         :correct: a
@@ -57,7 +56,6 @@
 .. quizq::
          
     .. mchoice:: validonost
-        :multiple_answers:
         :answer_a: Тачно
         :answer_b: Нетачно
         :correct: a
