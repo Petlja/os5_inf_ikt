@@ -101,6 +101,7 @@ lessons:
   - description: ''
     file: IKT.html
     guid: 97bd74e7-1399-4dc6-bd62-96f8c63420f2
+    normalized_title: 1.1.0. Информационо-комуникационе технологије
     src: IKT.rst
     title: 1.1.0. Информационо-комуникационе технологије
     type: reading
@@ -114,30 +115,35 @@ lessons:
   - description: ''
     file: podaci_i_informacije.html
     guid: bd51ea63-2396-4eee-b205-58240d2df400
+    normalized_title: 1.1.1. Подаци и информације
     src: podaci_i_informacije.rst
     title: 1.1.1. Подаци и информације
     type: reading
   - description: ''
     file: digitalni_uredjaji.html
     guid: 5aca7fd1-3525-4fa3-bdb7-fcabb3d16972
+    normalized_title: 1.1.2. Дигитални уређаји
     src: digitalni_uredjaji.rst
     title: 1.1.2. Дигитални уређаји
     type: reading
   - description: ''
     file: digitalni_uredjaji_koriscenje.html
     guid: 60872340-2168-4db3-be19-fbcb62f968a8
+    normalized_title: 1.1.3. Како и где користимо дигиталне уређаје
     src: digitalni_uredjaji_koriscenje.rst
     title: 1.1.3. Како и где користимо дигиталне уређаје?
     type: reading
   - description: ''
     file: pojam_ikt.html
     guid: 4b61212a-57a3-48dd-8c71-7331da0c589a
+    normalized_title: 1.1.4. Појам информационо-комуникационих технологија
     src: pojam_ikt.rst
     title: 1.1.4. Појам информационо-комуникационих технологија
     type: reading
   - description: ''
     file: test.html
     guid: 4346b18d-e928-4866-b99a-0c98ab3aa6e5
+    normalized_title: Квиз. Информатика и рачунарство у савременом животу
     src: test.rst
     title: Квиз. Информатика и рачунарство у савременом животу
     type: quiz
@@ -151,18 +157,21 @@ lessons:
   - description: ''
     file: 1_2_hardver.html
     guid: f8aecd23-e120-4ffb-a6c7-c93e0cee6ae7
+    normalized_title: Хардвер
     src: 1_2_hardver.rst
     title: Хардвер
     type: reading
   - description: ''
     file: 1_2_softver.html
     guid: 2e789345-ada2-4af2-b79d-9e375f0d2e49
+    normalized_title: Софтвер
     src: 1_2_softver.rst
     title: Софтвер
     type: reading
   - description: ''
     file: 1_2_kviz.html
     guid: 374e9065-3091-4f72-9352-8b8f23076a43
+    normalized_title: Квиз. Хардвер и софтвер
     src: 1_2_kviz.rst
     title: Квиз. Хардвер и софтвер
     type: quiz
@@ -176,30 +185,35 @@ lessons:
   - description: ''
     file: 1_3_1_desktop.html
     guid: 0db6dc1c-bfda-4da2-b3bb-52cb267fe201
+    normalized_title: Подешавање радног окружењa
     src: 1_3_1_desktop.rst
     title: Подешавање радног окружењa
     type: reading
   - description: ''
     file: 1_3_2_cpanel.html
     guid: 8ead8fa1-364f-4960-91dd-cd3c137a94b1
+    normalized_title: Контролна табла
     src: 1_3_2_cpanel.rst
     title: Контролна табла
     type: reading
   - description: ''
     file: 1_3_3_wallpaper.html
     guid: bb249ce3-508c-4043-a7e9-ccba6ea183c0
+    normalized_title: Подешавање позадинске слике
     src: 1_3_3_wallpaper.rst
     title: Подешавање позадинске слике
     type: reading
   - description: ''
     file: 1_3_4_regional.html
     guid: 84c70394-470e-47c3-98f1-b8df5f361682
+    normalized_title: Регионална и језичка подешавања
     src: 1_3_4_regional.rst
     title: Регионална и језичка подешавања
     type: reading
   - description: ''
     file: 1_3_5_test.html
     guid: 4fe14767-0e73-46f4-930a-26927bdf11d8
+    normalized_title: Квиз. Подешавање радног окружења
     src: 1_3_5_test.rst
     title: Квиз. Подешавање радног окружења
     type: quiz
@@ -213,18 +227,21 @@ lessons:
   - description: ''
     file: 1_4_1_datoteke.html
     guid: fa09b854-2179-4cd3-a4f9-8b9a2993dc70
+    normalized_title: Датотеке и фасцикле
     src: 1_4_1_datoteke.rst
     title: Датотеке и фасцикле
     type: reading
   - description: ''
     file: 1_4_2_rad_datoteke.html
     guid: 7732438c-7a1a-49b7-9774-16af0082eaea
+    normalized_title: Рад са датотекама и фасциклама
     src: 1_4_2_rad_datoteke.rst
     title: Рад са датотекама и фасциклама
     type: reading
   - description: ''
     file: 1_4_3_zadatak.html
     guid: 711d79e1-01aa-41c5-94de-bb64d77a8367
+    normalized_title: Задаци
     src: 1_4_3_zadatak.rst
     title: Задаци
     type: reading
@@ -238,24 +255,28 @@ lessons:
   - description: ''
     file: 1_5_1_grafika.html
     guid: a527d867-df4b-46c7-82ff-db27c74e46cc
+    normalized_title: Растерска и векторска графика
     src: 1_5_1_grafika.rst
     title: Растерска и векторска графика
     type: reading
   - description: ''
     file: 1_5_2_gimp.html
     guid: 4811bcc4-32de-4927-8bb8-37698cf9a8ff
+    normalized_title: Програм за обраду слике - Gimp
     src: 1_5_2_gimp.rst
     title: Програм за обраду слике - Gimp
     type: reading
   - description: ''
     file: Задатак_5_Рад_са_сликама.html
     guid: 05bb42ed-a88c-439b-aba6-51e5ccbb7d6a
+    normalized_title: Задаци. Рад са сликама
     src: Задатак_5_Рад_са_сликама.rst
     title: Задаци. Рад са сликама
     type: reading
   - description: ''
     file: Тест_5_Рад_са_сликама.html
     guid: 6f8c8fcf-bdd1-4e4f-b11d-fe378a46e085
+    normalized_title: Квиз. Рад са сликама
     src: Тест_5_Рад_са_сликама.rst
     title: Квиз. Рад са сликама
     type: quiz
@@ -269,42 +290,49 @@ lessons:
   - description: ''
     file: 1_6_1_unos.html
     guid: 29e93bab-41cd-40c5-8a40-db5533a0cbf6
+    normalized_title: Рад са текстом - унос текста
     src: 1_6_1_unos.rst
     title: Рад са текстом - унос текста
     type: reading
   - description: ''
     file: 1_6_2_pravopis.html
     guid: aef49bb4-8272-4841-9745-cbb8ff3c3834
+    normalized_title: Рад са текстом - дигитални правопис
     src: 1_6_2_pravopis.rst
     title: Рад са текстом - дигитални правопис
     type: reading
   - description: ''
     file: 1_6_3_editovanje.html
     guid: 6f4fb640-bb0e-4a9c-a4f8-4c1442a318e4
+    normalized_title: Уређивање и форматирање текста
     src: 1_6_3_editovanje.rst
     title: Уређивање и форматирање текста
     type: reading
   - description: ''
     file: 1_6_4_cuvanje.html
     guid: ce05ff33-61dc-42f7-bbb4-b6b53dee72e9
+    normalized_title: Чување текстуалних фајлова
     src: 1_6_4_cuvanje.rst
     title: Чување текстуалних фајлова
     type: reading
   - description: ''
     file: 1_6_5_slike.html
     guid: ee80a24e-c3e6-4911-b3d4-a1a0b0d0d8ce
+    normalized_title: Рад са тесктом - уметање слике у текст
     src: 1_6_5_slike.rst
     title: Рад са тесктом - уметање слике у текст
     type: reading
   - description: ''
     file: 1_6_7_zadaci.html
     guid: c38c50e2-cf37-4d83-826f-c719585a53eb
+    normalized_title: Рад са текстом - задаци
     src: 1_6_7_zadaci.rst
     title: Рад са текстом - задаци
     type: reading
   - description: ''
     file: 1_6_8_test.html
     guid: d0511672-02e7-4826-94b2-6b429dbb8ef7
+    normalized_title: Квиз - рад са текстом
     src: 1_6_8_test.rst
     title: Квиз - рад са текстом
     type: quiz
@@ -318,18 +346,21 @@ lessons:
   - description: ''
     file: Час_8_Снимање_звука_и_видео_записа.html
     guid: 152847ec-7019-4bed-bfa9-a38a657ee91b
+    normalized_title: Снимање звука и видео-записа
     src: Час_8_Снимање_звука_и_видео_записа.rst
     title: Снимање звука и видео-записа
     type: reading
   - description: ''
     file: Задатак_8_Снимање_звука_и_видео_записа.html
     guid: 6e3f625f-a108-41fc-9066-1d7b72b7d0df
+    normalized_title: Задаци. Снимање звука и видео-записа
     src: Задатак_8_Снимање_звука_и_видео_записа.rst
     title: Задаци. Снимање звука и видео-записа
     type: reading
   - description: ''
     file: Тест_8_Снимање_звука_и_видео_записа.html
     guid: 7ad2290b-343c-4747-a889-df9b8d00d20b
+    normalized_title: Квиз. Снимање звука и видео-записа
     src: Тест_8_Снимање_звука_и_видео_записа.rst
     title: Квиз. Снимање звука и видео-записа
     type: quiz
@@ -343,18 +374,21 @@ lessons:
   - description: ''
     file: 9_1_prezentacije.html
     guid: bc3b0a3b-bf19-46f5-93da-a1e97014aa4c
+    normalized_title: Мултимедијалне презентације
     src: 9_1_prezentacije.rst
     title: Мултимедијалне презентације
     type: reading
   - description: ''
     file: 9_2_powerpoint.html
     guid: e36e7e79-8962-412c-a965-80168035202e
+    normalized_title: Презентације у MS Power Point-у
     src: 9_2_powerpoint.rst
     title: Презентације у MS Power Point-у
     type: reading
   - description: ''
     file: 9_3_zadatak.html
     guid: 08862f73-8d52-4d82-8ca0-16ac41d79e28
+    normalized_title: Задаци - Рад са слајд презентацијама
     src: 9_3_zadatak.rst
     title: Задаци - Рад са слајд презентацијама
     type: reading
@@ -368,30 +402,35 @@ lessons:
   - description: ''
     file: 2_1_upotreba.html
     guid: 89e49737-2868-4e17-b306-7dfebc1fc38f
+    normalized_title: Употреба ИКТ уређаја на безбедан начин
     src: 2_1_upotreba.rst
     title: Употреба ИКТ уређаја на безбедан начин
     type: reading
   - description: ''
     file: 2_2_situacije.html
     guid: 2eedecf8-7a3a-4165-92e6-6ccd40c83bc7
+    normalized_title: Ситуације које могу бити небезбедне при коришћењу ИКТ уређаја
     src: 2_2_situacije.rst
     title: Ситуације које могу бити небезбедне при коришћењу ИКТ уређаја
     type: reading
   - description: ''
     file: 2_3_pravila.html
     guid: 80bcb63de-a535-414f-826b-41cffbfe03a4
+    normalized_title: Правила понашања на интернету
     src: 2_3_pravila.rst
     title: Правила понашања на интернету
     type: reading
   - description: ''
     file: 2_4_otpad.html
     guid: 9e305631-11d4-46d2-94ba-986dfbfc8513
+    normalized_title: Одлагање дигиталног отпада и заштита животне средине
     src: 2_4_otpad.rst
     title: Одлагање дигиталног отпада и заштита животне средине
     type: reading
   - description: ''
     file: 2_5_kviz.html
     guid: 4b29867e-4969-4bff-8182-d38e35a49cde
+    normalized_title: Квиз - Употреба ИКТ уређаја на безбедан начин
     src: 2_5_kviz.rst
     title: Квиз - Употреба ИКТ уређаја на безбедан начин
     type: quiz
@@ -405,30 +444,37 @@ lessons:
   - description: ''
     file: 2_2_1_pristupanje.html
     guid: 4c8c12ce-da5a-47d6-a903-8335b3ef7359
+    normalized_title: Приступ интернету
     src: 2_2_1_pristupanje.rst
     title: Приступ интернету
     type: reading
   - description: ''
     file: 2_2_2_pretrazivanje.html
     guid: 9af5557b-d293-4901-a6ee-478cfde1cefe
+    normalized_title: Претраживање интернета
     src: 2_2_2_pretrazivanje.rst
     title: Претраживање интернета
     type: reading
   - description: ''
     file: 2_2_3_kriticki_pritsup.html
     guid: 0361dac2-f4f7-41ac-afbc-7c4b9ff11377
+    normalized_title: Критички приступ информацијама на интернету
     src: 2_2_3_kriticki_pritsup.rst
     title: Критички приступ информацијама на интернету
     type: reading
   - description: ''
     file: 2_2_5_zadaci.html
     guid: 359e6cef-5c8c-4dae-b1b0-a35f302a1458
+    normalized_title: Задаци - Претраживање Интернета, одабир резултата и преузимање
+      садржаја
     src: 2_2_5_zadaci.rst
     title: Задаци - Претраживање Интернета, одабир резултата и преузимање садржаја
     type: reading
   - description: ''
     file: 2_2_4_kviz.html
     guid: 5e3e65b6-cfa2-403b-b250-108c39aa5265
+    normalized_title: Квиз - Претраживање Интернета, одабир резултата и преузимање
+      садржаја
     src: 2_2_4_kviz.rst
     title: Квиз - Претраживање Интернета, одабир резултата и преузимање садржаја
     type: quiz
@@ -442,18 +488,21 @@ lessons:
   - description: ''
     file: 2_4_1_zastita.html
     guid: 3273f437-2fc4-40d3-b4ee-072ee2df3783
+    normalized_title: Заштита приватности личних података и ауторска права
     src: 2_4_1_zastita.rst
     title: Заштита приватности личних података и ауторска права
     type: reading
   - description: ''
     file: 2_4_2_cc.html
     guid: 2938cdd0-49a4-4cd9-89a7-b1bfe791cd5d
+    normalized_title: Creative Commons лиценце
     src: 2_4_2_cc.rst
     title: Creative Commons лиценце
     type: reading
   - description: ''
     file: 2_4_3_kviz.html
     guid: 7d6fe6c6-3642-4cc1-921b-548ca62a2e54
+    normalized_title: Квиз Заштита приватности личних података и ауторска права
     src: 2_4_3_kviz.rst
     title: Квиз Заштита приватности личних података и ауторска права
     type: quiz
@@ -467,18 +516,21 @@ lessons:
   - description: ''
     file: 2_5_1_zastita.html
     guid: a18e17fb-3e6b-4c4c-b8b0-739c9ca5f2af
+    normalized_title: Заштита здравља, ризик зависности од технологије
     src: 2_5_1_zastita.rst
     title: Заштита здравља, ризик зависности од технологије
     type: reading
   - description: ''
     file: 2_5_2_zadaci.html
     guid: 615ef476-c855-4213-b49f-6fc93a924dbc
+    normalized_title: Задаци - Заштита здравља, ризик зависности од технологије
     src: 2_5_2_zadaci.rst
     title: Задаци - Заштита здравља, ризик зависности од технологије
     type: reading
   - description: ''
     file: 2_5_3_kviz.html
     guid: c487d602-0d10-4c9c-bacd-a55fbf435fa1
+    normalized_title: Квиз Заштита здравља, ризик зависности од технологије
     src: 2_5_3_kviz.rst
     title: Квиз Заштита здравља, ризик зависности од технологије
     type: quiz
