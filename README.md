@@ -2,9 +2,9 @@
 
 Ovaj repozitorijum posvećen je kursu za IKT i digitalnu pismenost za peti razred. 
 
-Kurs je na Petljom portalu dotupan ovde: [https://petlja.org/kurs/354/0](https://petlja.org/kurs/354/)
+Kurs je na Petljinom portalu dotupan ovde: [https://petlja.org/kurs/354/0](https://petlja.org/kurs/354/)
 
-Kurs možete itegrisati u svoj LMS koristeći SCORM pakete koji se mogu preuzeti sa: https://github.com/Petlja/os5_inf_ikt/releases
+Kurs možete integrisati u svoj LMS koristeći SCORM pakete koji se mogu preuzeti sa: https://github.com/Petlja/os5_inf_ikt/releases
 
 ## Konverzija u *HTML*
 
