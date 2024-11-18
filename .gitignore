@@ -10,3 +10,4 @@ update.py
 course.json
 override.json
 export
+.venv
